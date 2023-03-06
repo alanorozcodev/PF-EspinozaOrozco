@@ -1,0 +1,183 @@
+* {
+    Margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+/* Header*/
+
+
+a:link,
+a:visited {
+    text-decoration: none;
+}
+
+body .anuncio {
+    color: rgb(27 175 167);
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+
+
+
+
+/* Cuerpo*/
+h2 {
+    padding: 20px;
+    text-align: center;
+    font-size: 35px;
+}
+
+h3 {
+    padding: 20px;
+    text-align: center;
+    font-size: 25px;
+}
+
+#formatoServicios {
+    padding: 40px;
+
+}
+
+#textoInformativoIndex {
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
+#textoInformativoContacto {
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
+#textoInformativoSobreNosotros {
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
+.textoInformativo {
+    padding: 20px;
+    text-align: justify;
+    font-size: 20px;
+}
+
+.imgPrincipal {
+    padding: 50px;
+
+}
+
+.imagenServicios {
+    width: 300px;
+}
+
+.ubicacionContacto {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+}
+
+.ubicacionContacto ul {
+    list-style-type: none;
+}
+
+
+/* Footer*/
+footer {
+    background-color: rgb(89, 168, 238);
+    padding: 10px 0px;
+    background-image: url(../images/backgroundFooter.png);
+    background-size: cover;
+}
+
+
+footer .grupoFooterArriba {
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 50px;
+}
+
+footer .grupoFooterArriba .box figure {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 25px;
+    justify-content: space-around;
+}
+
+footer .grupoFooterArriba .box figure img {
+    width: 150px;
+}
+
+footer .grupoFooterArriba .box h2 {
+    color: white;
+    margin-bottom: 25px;
+    font-size: 30px;
+}
+
+footer .grupoFooterArriba .box p {
+    color: #efefef;
+    margin-bottom: 10px;
+    font-size: 15px;
+    text-align: center;
+}
+
+footer .grupoFooterArriba .box .redesSociales {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer .grupoFooterArriba .box .navbar-nav a {
+    color: #efefef;
+    margin-bottom: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+
+footer a:hover {
+    opacity: 0.8;
+}
+
+footer a .fa-brands {
+    font-size: 30px;
+    color: black;
+}
+
+footer a .fa-regular {
+    font-size: 30px;
+    color: black;
+}
+
+footer .grupoFooterBajo {
+    margin: auto;
+    padding: 0px 40px;
+    text-align: center;
+    color: white;
+}
+
+footer .grupoFooterBajo p {
+    margin-top: 20px;
+
+}
