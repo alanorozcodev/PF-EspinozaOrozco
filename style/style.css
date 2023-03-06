@@ -26,18 +26,6 @@ body .anuncio {
 
 
 /* Cuerpo*/
-h2 {
-    padding: 20px;
-    text-align: center;
-    font-size: 35px;
-}
-
-h3 {
-    padding: 20px;
-    text-align: center;
-    font-size: 25px;
-}
-
 #formatoServicios {
     padding: 40px;
 
@@ -62,6 +50,29 @@ h3 {
     flex-wrap: nowrap;
     flex-direction: row;
 }
+
+
+
+.textoInformativoServicios {
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+
+.textoInformativoServicios h2 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.textoInformativoServicios p{
+    font-style: italic;
+    color: #3c4053
+}
+
 
 #textoInformativoSobreNosotros {
     padding: 20px;
