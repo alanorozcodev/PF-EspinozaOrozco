@@ -21,34 +21,53 @@ body .anuncio {
     padding-bottom: 10px;
 }
 
-
-
-
-
 /* Cuerpo*/
 #formatoServicios {
     padding: 40px;
 
 }
 
-#textoInformativoIndex {
-    padding: 20px;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: nowrap;
-    flex-direction: row;
+.tituloIndex {
+text-align: center;
 }
 
-#textoInformativoContacto {
-    padding: 20px;
+.tituloIndex h2 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.textoInformativoIndex {
+    padding: 40px;
     text-align: center;
+    display: grid;
+    justify-content: space-evenly;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+.textoInformativoIndex p{
+    font-style: italic;
+    color: #3c4053
+}
+
+.parrafosIndex {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    flex-wrap: nowrap;
-    flex-direction: row;
+}
+
+.parrafosIndexSuperior {
+    margin: 10px;
+    padding: 15px;
+    text-align: justify;
+}
+
+.parrafosIndexInferior{
+    margin: 10px;
+    padding: 15px;
+    text-align: justify;
+    text-decoration: none;
 }
 
 
@@ -73,6 +92,35 @@ body .anuncio {
     color: #3c4053
 }
 
+.textoInformativoPromociones {
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+
+.textoInformativoPromociones h2 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.textoInformativoPromociones p{
+    font-style: italic;
+    color: #3c4053
+}
+
+#textoInformativoContacto {
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
 
 #textoInformativoSobreNosotros {
     padding: 20px;
@@ -84,11 +132,6 @@ body .anuncio {
     flex-direction: row;
 }
 
-.textoInformativo {
-    padding: 20px;
-    text-align: justify;
-    font-size: 20px;
-}
 
 .imgPrincipal {
     padding: 50px;
@@ -118,7 +161,6 @@ footer {
     background-image: url(../images/backgroundFooter.png);
     background-size: cover;
 }
-
 
 footer .grupoFooterArriba {
     width: 100%;
