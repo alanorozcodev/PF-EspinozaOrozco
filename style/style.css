@@ -4,10 +4,7 @@
     box-sizing: border-box;
 }
 
-
 /* Header*/
-
-
 a:link,
 a:visited {
     text-decoration: none;
@@ -21,14 +18,9 @@ body .anuncio {
     padding-bottom: 10px;
 }
 
-/* Cuerpo*/
-#formatoServicios {
-    padding: 40px;
-
-}
-
+/* index*/
 .tituloIndex {
-text-align: center;
+    text-align: center;
 }
 
 .tituloIndex h2 {
@@ -38,14 +30,14 @@ text-align: center;
 
 .textoInformativoIndex {
     padding: 40px;
-    text-align: center;
-    display: grid;
+    display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
-    grid-template-columns: 1fr 1fr;
+    width: auto;
     align-items: center;
 }
 
-.textoInformativoIndex p{
+.textoInformativoIndex p {
     font-style: italic;
     color: #3c4053
 }
@@ -55,6 +47,7 @@ text-align: center;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    width: 600px;
 }
 
 .parrafosIndexSuperior {
@@ -63,15 +56,20 @@ text-align: center;
     text-align: justify;
 }
 
-.parrafosIndexInferior{
+.parrafosIndexInferior {
     margin: 10px;
     padding: 15px;
     text-align: justify;
     text-decoration: none;
 }
 
+.imgPrincipalIndex {
+    padding: 50px;
+    width: auto;
+    object-fit: cover;
+}
 
-
+/* Servicios*/
 .textoInformativoServicios {
     padding: 20px;
     text-align: center;
@@ -87,11 +85,16 @@ text-align: center;
     font-weight: bold;
 }
 
-.textoInformativoServicios p{
+.textoInformativoServicios p {
     font-style: italic;
     color: #3c4053
 }
 
+#formatoServicios {
+    padding: 40px;
+}
+
+/* Promociones*/
 .textoInformativoPromociones {
     padding: 20px;
     text-align: center;
@@ -107,52 +110,128 @@ text-align: center;
     font-weight: bold;
 }
 
-.textoInformativoPromociones p{
+.textoInformativoPromociones p {
     font-style: italic;
     color: #3c4053
 }
 
-#textoInformativoContacto {
-    padding: 20px;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: nowrap;
-    flex-direction: row;
+.imagenDelMes {
+    padding: 40px;
+    height: fit-content;
+    width: auto;
 }
 
-#textoInformativoSobreNosotros {
-    padding: 20px;
+/* Sobre Nosotros*/
+.tituloSobreNosotros {
     text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: nowrap;
-    flex-direction: row;
 }
 
+.tituloSobreNosotros h2 {
+    font-size: 50px;
+    font-weight: bold;
+}
 
-.imgPrincipal {
+.tituloSobreNosotros p {
+    font-style: italic;
+    color: #3c4053
+}
+
+.textoInformativoSobreNosotros {
+    padding: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: auto;
+    align-items: center;
+}
+
+.textoInformativoSobreNosotros .textoInformativo {
+    text-align: center;
+    justify-content: center;
+    width: 600px;
+}
+
+.imgSobreNosotros {
     padding: 50px;
-
+    width: auto;
+    object-fit: cover;
 }
 
-.imagenServicios {
-    width: 300px;
+/*Contacto*/
+.textoInformativoContacto {
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+
+.textoInformativoContacto h2 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.textoInformativoContacto p {
+    font-style: italic;
+    color: #3c4053
+}
+
+.formRegister .formRegisterInput {
+    width: 100%;
 }
 
 .ubicacionContacto {
+    display: grid;
+    justify-content: space-evenly;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    margin: 80px;
+    padding: 20px;
+}
+
+.formRegister {
+    text-align: center;
+    width: 500px;
+    padding: 40px;
+    margin-top: 100px;
+    background-color: rgb(89, 168, 238);
+    background-image: url(../images/backgroundFooter.png);
+    background-size: cover;
+}
+
+.mainContainerContacto .formRegister .formRegisterInput {
+    margin: 10px;
+}
+
+.mainContainerContacto {
     display: flex;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
     justify-content: space-around;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.mainContainerContacto .ubicacionContactoDatos ul li {
+    text-align: center;
+    justify-content: center;
     align-items: center;
     list-style-type: none;
 }
 
-.ubicacionContacto ul {
-    list-style-type: none;
+.mainContainerContacto .ubicacionContactoDatos h3 {
+    text-align: center;
 }
 
+.mainContainerContacto .ubicacionContactoMapa {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+}
 
 /* Footer*/
 footer {

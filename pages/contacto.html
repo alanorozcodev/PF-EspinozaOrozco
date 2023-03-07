@@ -48,93 +48,54 @@
 
 
     <!--Contenido de la pagina-->
-    <h2>Contacto</h2>
-    <section id="textoInformativoContacto">
-        <div class="textoInformativo">
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam nisi placeat impedit fugit cupiditate
-                dolor
-                id sapiente voluptate maxime nobis deserunt aperiam, asperiores fuga repellat aut, iste ratione, quaerat
-                eum!
-                Omnis facilis sint molestiae error nemo adipisci. Odit ullam beatae officiis soluta numquam natus
-                ratione
-                iure
-                repellendus quibusdam? Non amet laboriosam asperiores dignissimos odit id fugit consequuntur optio
-                accusamus
-                magnam.
-                Cum rerum deserunt officiis quo, doloribus accusamus voluptates sit sequi necessitatibus molestias
-                laborum
-                id
-                quia vitae similique voluptatibus vel dolorem distinctio dolore? Libero rem consequuntur vitae aliquid
-                unde,
-                accusantium eum!
-                Saepe architecto id nemo deleniti vero rerum! Dolores eum blanditiis nulla dicta voluptatem eligendi,
-                distinctio
-                pariatur non quisquam aliquam deleniti, consequatur, sapiente atque reprehenderit debitis expedita quo!
-                Sunt,
-                corporis illum?
-                Dolorem inventore laborum eaque dolores, illo, magni ad assumenda quas reprehenderit recusandae vero
-                error
-                molestiae soluta similique veniam, maxime repudiandae eligendi vel ea alias quis reiciendis et at. Vel,
-                accusamus?
-                Corrupti similique nobis aspernatur amet. Et ea praesentium voluptas odio iste, vitae quis amet officiis
-                itaque
-                deleniti optio ipsa provident nisi ipsam excepturi neque qui vel eveniet sequi dolor nulla!
-                Dolorum suscipit ipsa unde qui odit quibusdam quod sapiente! Neque architecto dolorum quibusdam
-                repudiandae,
-                culpa minus harum aliquid iste eaque! Reprehenderit temporibus quo magni blanditiis at fuga
-                exercitationem
-                sint
-                nulla.
-                Eum, laborum repudiandae? Error accusamus nam minima fugit beatae, quod ex consequuntur est sequi veniam
-                provident odit adipisci atque sint distinctio repudiandae! Suscipit ratione cumque rem ipsum vel modi
-                assumenda.
-                Quam fugiat itaque libero, magni nemo ut possimus dolorum reiciendis error soluta a. Nam libero sequi id
-                sit,
-                vel repellendus. Maxime dolore neque fugiat, praesentium tempore laborum quia rerum minima?
-                Assumenda esse nulla officiis atque maxime eum dolorum, voluptate quaerat perspiciatis, sequi delectus
-                consequatur ad porro nesciunt voluptates eaque molestias quidem! Sed praesentium vel voluptas
-                consectetur
-                est
-                deserunt fugiat unde.
-            </p>
-        </div>
-    </section>
+    <div class="textoInformativoContacto">
+        <h2>Contacto</h2>
+        <p>No dejes pasar más tiempo y agenda una cita con nosotros ya sea mediante nuestra pagina web, correo
+            electronico o mensaje
+        </p>
+    </div>
+    <div class="mainContainerContacto">
+        <div class="formRegister">
+            <h3>Datos de contacto</h3>
+            <label for="nombre">Nombre(s)</label>
+            <input class="formRegisterInput" type="text" name="nombre" id="nombre" required>
 
-    <form>
-        <fieldset>
-            <legend>Datos de contacto</legend>
-            <label for="nombre">Nombre</label>
-            <input type="text" name="nombre" id="nombre" required>
             <label for="apellido-paterno">Apellido Paterno</label>
-            <input type="text" name="apellido-paterno" id="apellido-paterno" required>
+            <input class="formRegisterInput" type="text" name="apellido-paterno" id="apellido-paterno" required>
+
             <label for="apellido-materno">Apellido Materno</label>
-            <input type="text" name="apellido-materno" id="apellido-materno">
+            <input class="formRegisterInput" type="text" name="apellido-materno" id="apellido-materno">
+
             <label for="celular">Telefono de contacto</label>
-            <input type="tel" name="celular" id="celular" required>
+            <input class="formRegisterInput" type="tel" name="celular" id="celular" required>
+
             <label for="email">Correo electronico</label>
-            <input type="email" name="email" id="email">
+            <input class="formRegisterInput" type="email" name="email" id="email">
+
             <label for="servicio">Razon de su contacto</label>
             <textarea name="servicio" id="servicio" cols="30" rows="10" required></textarea>
             <!--radio button-->
             <label for="primera-visita">Primera visita</label>
-            <input type="radio" name="tipo-de-cliente" value="primera-visita" id="primera-visita">
+            <input class="formRegisterInput" type="radio" name="tipo-de-cliente" value="primera-visita"
+                id="primera-visita">
             <label for="seguimiento">Seguimiento</label>
-            <input type="radio" name="tipo-de-cliente" value="seguimiento" id="seguimiento">
+            <input class="formRegisterInput" type="radio" name="tipo-de-cliente" value="seguimiento" id="seguimiento">
             <input type="submit" value="Enviar">
-        </fieldset>
-    </form>
-
-    <h3>Nuestra ubicacion</h3>
-    <div class="ubicacionContacto">
-        <ul>
-            <li>Telefono de contacto: 3333333333</li>
-            <li>Correo electronico: fake@fakemail.com</li>
-            <li>Direccion: Av siempre viva 1234</li>
-        </ul>
-        <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d233.32786038701343!2d-103.39519438050068!3d20.659577977995536!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8428add7a23ff487%3A0x5e7d76670ee3ba19!2sAv.%20Chapalita%201321%2C%20Chapalita%2C%2044510%20Guadalajara%2C%20Jal.!5e0!3m2!1ses-419!2smx!4v1675128013199!5m2!1ses-419!2smx"
-            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="ubicacionContactoDatos">
+            <ul>
+                <li>Telefono de contacto: 3333333333</li>
+                <li>Correo electronico: fake@fakemail.com</li>
+            </ul>
+        </div>
+        <div class="ubicacionContactoMapa">
+            <h3>Nuestra ubicacion</h3>
+            <p>Direccion: Av siempre viva 1234</p>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d233.32786038701343!2d-103.39519438050068!3d20.659577977995536!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8428add7a23ff487%3A0x5e7d76670ee3ba19!2sAv.%20Chapalita%201321%2C%20Chapalita%2C%2044510%20Guadalajara%2C%20Jal.!5e0!3m2!1ses-419!2smx!4v1675128013199!5m2!1ses-419!2smx"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
     </div>
 
 
