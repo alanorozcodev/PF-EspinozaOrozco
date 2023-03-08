@@ -64,7 +64,7 @@ body .anuncio {
 }
 
 .imgPrincipalIndex {
-    padding: 50px;
+    padding: 30px;
     width: auto;
     object-fit: cover;
 }
@@ -313,4 +313,35 @@ footer .grupoFooterBajo {
 footer .grupoFooterBajo p {
     margin-top: 20px;
 
+}
+/*Media Queries*/
+
+@media (min-width: 768px) and (max-width: 1199px) {
+    footer .grupoFooterArriba {
+        width: 100%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 50px;
+    }
+}
+
+@media (max-width: 767px) {
+    footer .grupoFooterArriba {
+        width: 75%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 40px;
+    }
+}
+
+@media (max-width: 480px) {
+    footer .grupoFooterArriba {
+        width: 90%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 30px;
+    }
 }
