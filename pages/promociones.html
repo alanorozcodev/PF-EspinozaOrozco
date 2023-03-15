@@ -14,40 +14,37 @@
 </head>
 
 <body>
-    <!--JS Bootstrap-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
-        crossorigin="anonymous"></script>
-    <script src="https://kit.fontawesome.com/3284a2937b.js" crossorigin="anonymous"></script>
-    <div class="anuncio">
-        <a href="./contacto.html">No dejes pasar más tiempo y cuida tu salud dental! Agenda tu cita aqui</a>
-    </div>
+    <!--Anuncio-->
+    <aside>
+        <div class="anuncio">
+            <a href="./contacto.html">No dejes pasar más tiempo y cuida tu salud dental! Agenda tu cita aqui</a>
+        </div>
+    </aside>
     <!--Barra de navegacion-->
     <header>
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid">
-                <a class="navbar-brand" href="../index.html"><img height="30" weight="30" src="../images/logo.png"
-                        alt="Logo consultorio">
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
-                        aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                        <div class="navbar-nav">
-                            <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
-                            <a class="nav-link" href="../pages/servicios.html">Servicios</a>
-                            <a class="nav-link" href="../pages/promociones.html">Promociones</a>
-                            <a class="nav-link" href="../pages/sobreNosotros.html">Sobre Nosotros</a>
-                            <a class="nav-link" href="../pages/contacto.html">Contacto</a>
-                        </div>
+                <a class="navbar-brand" href="../index.html"><img height="30" width="30" src="../images/logo.png"
+                        alt="Logo consultorio"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                        <a class="nav-link" href="../pages/servicios.html">Servicios</a>
+                        <a class="nav-link" href="../pages/promociones.html">Promociones</a>
+                        <a class="nav-link" href="../pages/sobreNosotros.html">Sobre Nosotros</a>
+                        <a class="nav-link" href="../pages/contacto.html">Contacto</a>
                     </div>
+                </div>
             </div>
         </nav>
     </header>
-
     <!--Carrusel-->
-    <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+    <section id="carousel" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
                 <a href="../pages/sobreNosotros.html">
@@ -71,17 +68,52 @@
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
         </button>
-    </div>
+    </section>
 
-    <div class="textoInformativoPromociones">
-        <h2>Promociones del mes</h2>
-        <p>No te pierdas de las promociones mensuales que tenemos para ti y aprovecha para obtener tu sonrisa deseada
-        </p>
-    </div>
-    <div class="imagenDelMes">
-        <a href="./contacto.html"><img src="../images/promocionDelMesEjemplo.png" class="img-fluid"
-                alt="promocionDelMes"></a>
-    </div>
+    <section>
+        <hgroup class="textoInformativoPromociones">
+            <h2>Promociones del mes</h2>
+            <p>No te pierdas de las promociones que tenemos para ti y aprovecha para obtener tu sonrisa
+                deseada
+            </p>
+        </hgroup>
+        <div class="carouselPromociones">
+            <div id="carouselPromotionsControls" class="carousel carousel-dark slide" data-bs-ride="true">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselPromotionsControls" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselPromotionsControls" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselPromotionsControls" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <a href="../pages/contacto.html"><img src="../images/promocionDelMesEjemplo.png"
+                                class="d-block  img-fluid" alt="Promocion del mes"></a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="../pages/contacto.html"><img src="../images/promocionDelMes2.png"
+                                class="d-block img-fluid" alt="Promocion ortodoncia"></a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="../pages/contacto.html"><img src="../images/promocionDelMes3.png"
+                                class="d-block img-fluid" alt="Promocion extracciones"></a>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselPromotionsControls"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselPromotionsControls"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </section>
 
     <!--Footer-->
     <footer>
@@ -124,5 +156,11 @@
             <p>&copy; 2023 <b> - C. D. Jesalia - </b>Todos los Derechos Reservados</p>
         </div>
     </footer>
+    <!--JS Bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/3284a2937b.js" crossorigin="anonymous"></script>
+</body>
 
 </html>

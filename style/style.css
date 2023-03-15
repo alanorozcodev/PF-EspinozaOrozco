@@ -4,18 +4,32 @@
     box-sizing: border-box;
 }
 
-/* Header*/
+
 a:link,
 a:visited {
     text-decoration: none;
 }
 
-body .anuncio {
+
+
+/* Header*/
+.anuncio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.anuncio a {
     color: rgb(27 175 167);
     font-size: 20px;
     text-decoration: none;
     text-align: center;
-    padding-bottom: 10px;
+}
+
+.anuncio a:hover {
+    color: rgba(27, 175, 168, 0.36);
+
 }
 
 /* index*/
@@ -26,6 +40,12 @@ body .anuncio {
 .tituloIndex h2 {
     font-size: 50px;
     font-weight: bold;
+}
+
+.tituloIndex p {
+    font-size: 30px;
+    font-weight: bold;
+
 }
 
 .textoInformativoIndex {
@@ -64,9 +84,9 @@ body .anuncio {
 }
 
 .imgPrincipalIndex {
-    padding: 30px;
-    width: auto;
+    max-width: 100%;
     object-fit: cover;
+    margin: 10px;
 }
 
 /* Servicios*/
@@ -86,6 +106,7 @@ body .anuncio {
 }
 
 .textoInformativoServicios p {
+    font-size: 25px;
     font-style: italic;
     color: #3c4053
 }
@@ -93,6 +114,24 @@ body .anuncio {
 #formatoServicios {
     padding: 40px;
 }
+
+.card.h-100 {
+    box-shadow: 10px 10px 5px lightblue;
+    margin: 10px;
+    width: auto;
+}
+
+#formatoServicios .container-fluid .row.row-cols-1.row-cols-md-2.row-cols-lg-4 .col {
+    margin-bottom: 30px;
+}
+
+.card-footer a {
+    color: rgba(21, 66, 149, 0.315);
+    text-decoration: none;
+    text-align: center;
+}
+
+
 
 /* Promociones*/
 .textoInformativoPromociones {
@@ -111,15 +150,32 @@ body .anuncio {
 }
 
 .textoInformativoPromociones p {
+    font-size: 25px;
     font-style: italic;
     color: #3c4053
 }
 
-.imagenDelMes {
+#carouselPromotionsControls {
     padding: 40px;
-    height: fit-content;
+    margin: 20px;
     width: auto;
 }
+
+
+#carouselPromotionsControls .carousel-indicators button {
+    background-color: black;
+}
+
+.carouselPromociones {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    
+}
+
+
 
 /* Sobre Nosotros*/
 .tituloSobreNosotros {
@@ -132,6 +188,7 @@ body .anuncio {
 }
 
 .tituloSobreNosotros p {
+    font-size: 25px;
     font-style: italic;
     color: #3c4053
 }
@@ -152,8 +209,7 @@ body .anuncio {
 }
 
 .imgSobreNosotros {
-    padding: 50px;
-    width: auto;
+    max-width: auto;
     object-fit: cover;
 }
 
@@ -174,6 +230,7 @@ body .anuncio {
 }
 
 .textoInformativoContacto p {
+    font-size: 25px;
     font-style: italic;
     color: #3c4053
 }
@@ -182,14 +239,6 @@ body .anuncio {
     width: 100%;
 }
 
-.ubicacionContacto {
-    display: grid;
-    justify-content: space-evenly;
-    grid-template-columns: 1fr 1fr;
-    align-items: center;
-    margin: 80px;
-    padding: 20px;
-}
 
 .formRegister {
     text-align: center;
@@ -209,29 +258,33 @@ body .anuncio {
     display: flex;
     align-items: center;
     margin: 20px;
-    padding: 20px;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-content: center;
     flex-wrap: wrap;
-}
-
-.mainContainerContacto .ubicacionContactoDatos ul li {
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    list-style-type: none;
-}
-
-.mainContainerContacto .ubicacionContactoDatos h3 {
-    text-align: center;
+    width: auto;
 }
 
 .mainContainerContacto .ubicacionContactoMapa {
     text-align: center;
+    list-style-type: none;
+    width: 500px;
+    height: auto;
+}
+
+.mainContainerContacto .imgPrincipalIndexMapa h3 {
+    text-align: center;
+}
+
+.mainContainerContacto .ubicacionContactoMapa ul li {
+    text-align: center;
     justify-content: center;
     align-items: center;
     list-style-type: none;
 }
+
+
+
+
 
 /* Footer*/
 footer {
@@ -317,21 +370,10 @@ footer .grupoFooterBajo p {
 
 /*Media Queries de la pagina*/
 
-@media (min-width: 768px) and (max-width: 1199px) {
-    footer .grupoFooterArriba {
-        width: 100%;
-        margin: auto;
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        grid-gap: 50px;
-    }
-}
 
 @media (max-width: 767px) {
     footer .grupoFooterArriba {
         width: 75%;
-        margin: auto;
-        display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-gap: 40px;
     }
@@ -340,9 +382,16 @@ footer .grupoFooterBajo p {
 @media (max-width: 480px) {
     footer .grupoFooterArriba {
         width: 90%;
-        margin: auto;
-        display: grid;
         grid-template-columns: repeat(1, 1fr);
         grid-gap: 30px;
+    }
+
+    footer .grupoFooterArriba .box figure {
+        margin: 0px;
+    }
+
+    #carousel {
+        display: none;
+
     }
 }

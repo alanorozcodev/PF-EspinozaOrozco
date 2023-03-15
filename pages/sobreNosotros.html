@@ -14,39 +14,37 @@
 </head>
 
 <body>
-    <!--JS Bootstrap-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
-        crossorigin="anonymous"></script>
-    <script src="https://kit.fontawesome.com/3284a2937b.js" crossorigin="anonymous"></script>
-    <div class="anuncio">
-        <a href="./contacto.html">No dejes pasar más tiempo y cuida tu salud dental! Agenda tu cita aqui</a>
-    </div>
+    <!--Anuncio-->
+    <aside>
+        <div class="anuncio">
+            <a href="./contacto.html">No dejes pasar más tiempo y cuida tu salud dental! Agenda tu cita aqui</a>
+        </div>
+    </aside>
     <!--Barra de navegacion-->
     <header>
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid">
-                <a class="navbar-brand" href="../index.html"><img height="30" weight="30" src="../images/logo.png"
-                        alt="Logo consultorio">
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
-                        aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                        <div class="navbar-nav">
-                            <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
-                            <a class="nav-link" href="../pages/servicios.html">Servicios</a>
-                            <a class="nav-link" href="../pages/promociones.html">Promociones</a>
-                            <a class="nav-link" href="../pages/sobreNosotros.html">Sobre Nosotros</a>
-                            <a class="nav-link" href="../pages/contacto.html">Contacto</a>
-                        </div>
+                <a class="navbar-brand" href="../index.html"><img height="30" width="30" src="../images/logo.png"
+                        alt="Logo consultorio"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                        <a class="nav-link" href="../pages/servicios.html">Servicios</a>
+                        <a class="nav-link" href="../pages/promociones.html">Promociones</a>
+                        <a class="nav-link" href="../pages/sobreNosotros.html">Sobre Nosotros</a>
+                        <a class="nav-link" href="../pages/contacto.html">Contacto</a>
                     </div>
+                </div>
             </div>
         </nav>
     </header>
     <!--Carrusel-->
-    <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+    <section id="carousel" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
                 <a href="../pages/sobreNosotros.html">
@@ -70,77 +68,84 @@
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
         </button>
-    </div>
+    </section>
 
     <!--Contenido de la pagina-->
-    <div class="tituloSobreNosotros">
-        <h2>Sobre Nosotros</h2>
-        <p> En C.D. Jesalia, estamos orgullosos de crear un ambiente relajado y amigable para todos nuestros
-            pacientes</p>
-    </div>
-
-    <div class="textoInformativoSobreNosotros">
-        <div class="imgSobreNosotros"><img src="../images/fotodentista.jpg" alt="dentistafoto"></div>
-        <div class="textoInformativo">
-            <p> Cirujana dentista graduada de la Universidad de Guadalajara en el 2019</p>
-            <p> Nuestro equipo de dentistas compasivos, profesionales de la salud y coordinadores de atención al
-                paciente tiene como objetivo brindar un tratamiento dental al más alto nivel y hacer todo lo posible
-                para garantizar que se sienta bienvenido, cómodo en nuestra atención. Nuestro
-                equipo dedicado y agradable escucha lo que tiene que decir y estara feliz de responder cualquier
-                pregunta para que se sienta informado y en control de las decisiones de su tratamiento. Invertimos
-                continuamente
-                en la mejor capacitación, equipo y tecnología para abordar todas sus necesidades dentales con los
-                métodos
-                más efectivos, desde odontología general y preventiva hasta tratamientos cosméticos avanzados. También
-                hacemos todo lo posible para crear una atmósfera de apoyo y comodidad con usted en el centro, para
-                garantizar que reciba la atención que necesita cuando la necesita. Su salud dental es nuestra máxima
-                prioridad. A través de nuestro uso de métodos de tratamiento modernos y actualizados, y materiales y
-                equipos de última generación, dejará nuestro consultorio satisfecho con una sonrisa saludable. </p>
+    <section>
+        <hgroup class="tituloSobreNosotros">
+            <h2>Sobre Nosotros</h2>
+            <p> En C.D. Jesalia, estamos orgullosos de crear un ambiente relajado y amigable para todos nuestros
+                pacientes</p>
+        </hgroup>
+        <div class="textoInformativoSobreNosotros">
+            <div class="imgSobreNosotros"><img src="../images/fotodentista.jpg" alt="dentistafoto"
+                    style="max-width: 100%"></div>
+            <div class="textoInformativo">
+                <p> Cirujana dentista graduada de la Universidad de Guadalajara en el 2019</p>
+                <p> Nuestro equipo de dentistas compasivos, profesionales de la salud y coordinadores de atención al
+                    paciente tiene como objetivo brindar un tratamiento dental al más alto nivel y hacer todo lo posible
+                    para garantizar que se sienta bienvenido, cómodo en nuestra atención. Nuestro
+                    equipo dedicado y agradable escucha lo que tiene que decir y estara feliz de responder cualquier
+                    pregunta para que se sienta informado y en control de las decisiones de su tratamiento. Invertimos
+                    continuamente
+                    en la mejor capacitación, equipo y tecnología para abordar todas sus necesidades dentales con los
+                    métodos
+                    más efectivos, desde odontología general y preventiva hasta tratamientos cosméticos avanzados.
+                    También
+                    hacemos todo lo posible para crear una atmósfera de apoyo y comodidad con usted en el centro, para
+                    garantizar que reciba la atención que necesita cuando la necesita. Su salud dental es nuestra máxima
+                    prioridad. A través de nuestro uso de métodos de tratamiento modernos y actualizados, y materiales y
+                    equipos de última generación, dejará nuestro consultorio satisfecho con una sonrisa saludable. </p>
+            </div>
         </div>
-    </div>
+    </section>
+    <!--Footer-->
+    <footer>
+        <div class="grupoFooterArriba">
+            <div class="box">
+                <figure>
+                    <a href="../index.html">
+                        <img src="../images/logo.png" alt="Logo">
+                    </a>
+                    <p>"Comprometidos al cuidado y salud de tu sonrisa"</p>
+                </figure>
+            </div>
+            <div class="box">
+                <div class="navbar-nav">
+                    <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                    <a class="nav-link" href="../pages/servicios.html">Servicios</a>
+                    <a class="nav-link" href="../pages/promociones.html">Promociones</a>
+                    <a class="nav-link" href="../pages/sobreNosotros.html">Sobre Nosotros</a>
+                    <a class="nav-link" href="../pages/contacto.html">Contacto</a>
+                </div>
+            </div>
+            <div class="box">
+                <h2>Datos de contacto</h2>
+                <p>Telefono de contacto: 3333333333</p>
+                <p>Direccion: Av siempre viva 1234</p>
+            </div>
+            <div class="box">
+                <h2>Redes Sociales</h2>
+                <div class="redesSociales">
+                    <a href="https://api.whatsapp.com/send?phone=5213330244397&text=Que%20tal%20buen%20dia%2C%20me%20interesaria%20poder%20agendar%20un%20servicio%20con%20usted"
+                        target="_blank"><i class="fa-brands fa-square-facebook"></i></a>
+                    <a href="https://www.instagram.com/c.d.jesalia.espinoza/" target="_blank"><i
+                            class="fa-brands fa-instagram"></i></a>
+                    <a href="mailto:jesaliaespinoza04@gmail.com?Subject=Me%20interesa%20agendar%20una%20cita"><i
+                            class="fa-regular fa-envelope"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="grupoFooterBajo">
+            <p>&copy; 2023 <b> - C. D. Jesalia - </b>Todos los Derechos Reservados</p>
+        </div>
+    </footer>
+    <!--JS Bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/3284a2937b.js" crossorigin="anonymous"></script>
+
 </body>
-
-<!--Footer-->
-
-<footer>
-    <div class="grupoFooterArriba">
-        <div class="box">
-            <figure>
-                <a href="../index.html">
-                    <img src="../images/logo.png" alt="Logo">
-                </a>
-                <p>"Comprometidos al cuidado y salud de tu sonrisa"</p>
-            </figure>
-        </div>
-        <div class="box">
-            <div class="navbar-nav">
-                <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
-                <a class="nav-link" href="../pages/servicios.html">Servicios</a>
-                <a class="nav-link" href="../pages/promociones.html">Promociones</a>
-                <a class="nav-link" href="../pages/sobreNosotros.html">Sobre Nosotros</a>
-                <a class="nav-link" href="../pages/contacto.html">Contacto</a>
-            </div>
-        </div>
-        <div class="box">
-            <h2>Datos de contacto</h2>
-            <p>Telefono de contacto: 3333333333</p>
-            <p>Direccion: Av siempre viva 1234</p>
-        </div>
-        <div class="box">
-            <h2>Redes Sociales</h2>
-            <div class="redesSociales">
-                <a href="https://api.whatsapp.com/send?phone=5213330244397&text=Que%20tal%20buen%20dia%2C%20me%20interesaria%20poder%20agendar%20un%20servicio%20con%20usted"
-                    target="_blank"><i class="fa-brands fa-square-facebook"></i></a>
-                <a href="https://www.instagram.com/c.d.jesalia.espinoza/" target="_blank"><i
-                        class="fa-brands fa-instagram"></i></a>
-                <a href="mailto:jesaliaespinoza04@gmail.com?Subject=Me%20interesa%20agendar%20una%20cita"><i
-                        class="fa-regular fa-envelope"></i></a>
-            </div>
-        </div>
-    </div>
-    <div class="grupoFooterBajo">
-        <p>&copy; 2023 <b> - C. D. Jesalia - </b>Todos los Derechos Reservados</p>
-    </div>
-</footer>
 
 </html>
