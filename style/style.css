@@ -125,10 +125,13 @@ a:visited {
     margin-bottom: 30px;
 }
 
+.card-footer {
+    text-align: center;
+}
+
 .card-footer a {
     color: rgba(21, 66, 149, 0.315);
     text-decoration: none;
-    text-align: center;
 }
 
 
@@ -172,7 +175,7 @@ a:visited {
     align-items: center;
     text-align: center;
     width: 100%;
-    
+
 }
 
 
@@ -209,7 +212,7 @@ a:visited {
 }
 
 .imgSobreNosotros {
-    max-width: auto;
+    max-width: 100%;
     object-fit: cover;
 }
 
@@ -280,6 +283,23 @@ a:visited {
     justify-content: center;
     align-items: center;
     list-style-type: none;
+}
+
+.mapaResponsive {
+    overflow: hidden;
+    padding-bottom: 100%;
+    position: relative;
+    height: 0;
+    margin: 10px;
+}
+
+.mapaResponsive iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+
 }
 
 
