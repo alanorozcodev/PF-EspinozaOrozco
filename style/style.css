@@ -67,7 +67,7 @@ a:visited {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    width: 600px;
+    width: 50vh;
 }
 
 .parrafosIndexSuperior {
@@ -175,7 +175,26 @@ a:visited {
     align-items: center;
     text-align: center;
     width: 100%;
+    margin-left: 30px;
+    padding: 10px;
 
+}
+
+.promociones {
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    align-items: center;
+}
+
+.cajaSuscripcion {
+    text-align: center;
+    max-width: 400px;
+    background-color: rgb(89, 168, 238, 0.6);
+    padding: 10px;
+    margin: 30px;
 }
 
 
@@ -183,6 +202,11 @@ a:visited {
 /* Sobre Nosotros*/
 .tituloSobreNosotros {
     text-align: center;
+}
+
+.tituloSobreNosotros h3 {
+    text-align: center;
+
 }
 
 .tituloSobreNosotros h2 {
@@ -206,14 +230,19 @@ a:visited {
 }
 
 .textoInformativoSobreNosotros .textoInformativo {
-    text-align: center;
+    text-align: justify;
     justify-content: center;
-    width: 600px;
+    width: 50vh;
+}
+
+.textoInformativoSobreNosotros .textoInformativo h3 {
+    text-align: center;
 }
 
 .imgSobreNosotros {
-    max-width: 100%;
+    width: 50vh;
     object-fit: cover;
+    margin-bottom: 30px;
 }
 
 /*Contacto*/
@@ -245,7 +274,8 @@ a:visited {
 
 .formRegister {
     text-align: center;
-    width: 500px;
+    width: 50vh;
+    ;
     padding: 40px;
     margin-top: 100px;
     background-color: rgb(89, 168, 238);
@@ -391,27 +421,240 @@ footer .grupoFooterBajo p {
 /*Media Queries de la pagina*/
 
 
-@media (max-width: 767px) {
+@media (min-width: 768px) and (max-width: 1023px) {
+
+    /*Index*/
+    .textoInformativoIndex {
+        padding: 0px;
+
+    }
+
+    /*Promociones*/
+    .promociones {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    #carouselPromotionsControls {
+        padding: 0px;
+    }
+
+    /*Sobre Nosotros*/
+    .textoInformativoSobreNosotros {
+        padding: 0px;
+    }
+
+    .textoInformativoSobreNosotros .textoInformativo {
+        width: auto;
+        margin: 10px;
+    }
+
+    .textoInformativoSobreNosotros .textoInformativo p {
+        text-align: center;
+    }
+
+    /*Contacto*/
+
+    .formRegister {
+        margin-top: 0px;
+        padding: 10px;
+        margin-bottom: 20px;
+        width: 50vh;
+        padding: 10px;
+    }
+
+    .mainContainerContacto {
+        flex-wrap: nowrap;
+    }
+
+    .mainContainerContacto .formRegister .formRegisterInput {
+        margin: 0px;
+    }
+
+    .mainContainerContacto .ubicacionContactoMapa {
+        width: 50vh;
+    }
+
+    .mainContainerContacto .ubicacionContactoMapa ul {
+        text-align: center;
+        padding: 0px;
+    }
+
+
+
+
+    /*Footer*/
     footer .grupoFooterArriba {
         width: 75%;
         grid-template-columns: repeat(2, 1fr);
         grid-gap: 40px;
     }
+
+
+
 }
 
-@media (max-width: 480px) {
-    footer .grupoFooterArriba {
-        width: 90%;
-        grid-template-columns: repeat(1, 1fr);
-        grid-gap: 30px;
-    }
+@media (min-width: 320px) and (max-width: 767px) {
 
-    footer .grupoFooterArriba .box figure {
-        margin: 0px;
+    .anuncio a {
+        font-size: 12px;
     }
 
     #carousel {
         display: none;
+    }
+
+    /*index*/
+    .tituloIndex h2 {
+        font-size: 30px;
+    }
+
+    .tituloIndex p {
+        font-size: 15px;
+    }
+
+    .textoInformativoIndex {
+        padding: 0px;
+        margin: 10px;
+    }
+
+    .parrafosIndexSuperior {
+        padding: 10px;
+        margin: 10px;
+    }
+
+    .parrafosIndexInferior {
+        padding: 10px;
+        margin: 10px;
+    }
+
+
+    /* Servicios*/
+
+    #formatoServicios {
+        padding: 0;
+    }
+
+    .textoInformativoServicios h2 {
+        font-size: 30px;
+    }
+
+    .textoInformativoServicios p {
+        font-size: 15px;
+    }
+
+    .textoInformativoServicios {
+        padding: 0px;
+        margin: 10px;
+    }
+
+    .col {
+        margin-bottom: 15px;
+    }
+
+    .card.h-100 {
+        box-shadow: 5px 5px 2px lightblue;
+    }
+
+    /*Promociones*/
+    .textoInformativoPromociones h2 {
+        font-size: 30px;
+    }
+
+    .textoInformativoPromociones p {
+        font-size: 15px;
+    }
+
+    .textoInformativoPromociones {
+        padding: 0px;
+        margin: 10px;
+    }
+
+    #carouselPromotionsControls {
+        width: auto;
+        padding: 0;
+        margin: 0;
+    }
+
+    .promociones {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .carouselPromociones {
+        margin: 20px;
+    }
+
+    /*sobre Nosotros*/
+    .tituloSobreNosotros h2 {
+        font-size: 30px;
+    }
+
+    .tituloSobreNosotros p {
+        font-size: 15px;
+    }
+
+    .tituloSobreNosotros {
+        padding: 0px;
+        margin: 10px;
+    }
+
+    .textoInformativoSobreNosotros {
+        padding: 10px;
+        margin: 10px;
 
     }
+
+    .textoInformativoSobreNosotros p {
+        font-size: 15px;
+    }
+
+    /*Contacto*/
+    .textoInformativoContacto h2 {
+        font-size: 30px;
+    }
+
+    .textoInformativoContacto p {
+        font-size: 15px;
+    }
+
+    .textoInformativoContacto {
+        padding: 0px;
+        margin: 10px;
+    }
+
+    .formRegister {
+        margin-top: 0px;
+        padding: 10px;
+        margin-bottom: 20px;
+    }
+
+    .mainContainerContacto .formRegister .formRegisterInput {
+        margin: 0px;
+    }
+
+    .ubicacionContactoMapa ul {
+        padding-left: 0px;
+    }
+
+    .cajaSuscripcion {
+        padding: 10px;
+        margin: 10px;
+    }
+
+
+    /*footer*/
+    footer .grupoFooterArriba {
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 0px;
+    }
+
+    footer .grupoFooterArriba .box figure {
+        margin: 0px;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+
 }

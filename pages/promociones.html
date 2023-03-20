@@ -71,49 +71,61 @@
     </section>
 
     <section>
-        <hgroup class="textoInformativoPromociones">
+        <header class="textoInformativoPromociones">
             <h2>Promociones del mes</h2>
             <p>No te pierdas de las promociones que tenemos para ti y aprovecha para obtener tu sonrisa
                 deseada
             </p>
-        </hgroup>
+        </header>
+        <div class="promociones">
             <!--Carrusel de promociones-->
-        <article class="carouselPromociones">
-            <div id="carouselPromotionsControls" class="carousel carousel-dark slide" data-bs-ride="true">
-                <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carouselPromotionsControls" data-bs-slide-to="0"
-                        class="active" aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#carouselPromotionsControls" data-bs-slide-to="1"
-                        aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#carouselPromotionsControls" data-bs-slide-to="2"
-                        aria-label="Slide 3"></button>
+            <article class="carouselPromociones">
+                <div id="carouselPromotionsControls" class="carousel carousel-dark slide" data-bs-ride="true">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselPromotionsControls" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselPromotionsControls" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselPromotionsControls" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <a href="../pages/contacto.html"><img src="../images/promocionDelMesEjemplo.png"
+                                    class="d-block  img-fluid" alt="Promocion del mes"></a>
+                        </div>
+                        <div class="carousel-item">
+                            <a href="../pages/contacto.html"><img src="../images/promocionDelMes2.png"
+                                    class="d-block img-fluid" alt="Promocion ortodoncia"></a>
+                        </div>
+                        <div class="carousel-item">
+                            <a href="../pages/contacto.html"><img src="../images/promocionDelMes3.png"
+                                    class="d-block img-fluid" alt="Promocion extracciones"></a>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselPromotionsControls"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselPromotionsControls"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
                 </div>
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <a href="../pages/contacto.html"><img src="../images/promocionDelMesEjemplo.png"
-                                class="d-block  img-fluid" alt="Promocion del mes"></a>
-                    </div>
-                    <div class="carousel-item">
-                        <a href="../pages/contacto.html"><img src="../images/promocionDelMes2.png"
-                                class="d-block img-fluid" alt="Promocion ortodoncia"></a>
-                    </div>
-                    <div class="carousel-item">
-                        <a href="../pages/contacto.html"><img src="../images/promocionDelMes3.png"
-                                class="d-block img-fluid" alt="Promocion extracciones"></a>
-                    </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselPromotionsControls"
-                    data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselPromotionsControls"
-                    data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
+            </article>
+
+            <div class="cajaSuscripcion">
+                <form action="#">
+                    <h2>Newsletter</h2>
+                    <p>Mantente al dia con nuestras promociones especiales</p>
+                    <p>Suscribete a nuestro boletin para saber de nuestras promociones antes que nadie</p>
+                    <input type="email" placeholder="Direccion de email...">
+                    <button type="submit">Suscribete</button>
+                </form>
             </div>
-        </article>
+        </div>
     </section>
 
     <!--Footer-->
