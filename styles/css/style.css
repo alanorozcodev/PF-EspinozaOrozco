@@ -340,7 +340,7 @@ a:visited {
 footer {
     background-color: rgb(19 83 139);
     padding: 10px 0px;
-    background-image: url(../images/backgroundFooter.png);
+    background-image: url(/images/backgroundFooter.png);
     background-size: cover;
 }
 
