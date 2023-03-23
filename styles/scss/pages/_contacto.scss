@@ -1,0 +1,85 @@
+.textoInformativoContacto {
+    padding: 10px;
+    text-align: center;
+    @include flex-nowrap-center;
+    align-items: center;
+    flex-direction: column;
+
+    h1 {
+        font-size: 50px;
+        font-weight: bold;
+    }
+
+    p {
+        font-size: 25px;
+        font-style: italic;
+        color: $color_3;
+    }
+}
+
+.formRegister {
+    .formRegisterInput {
+        width: 100%;
+    }
+
+    text-align: center;
+    width: 50vh;
+    padding: 40px;
+    margin-top: 100px;
+    background: $background-color_2;
+
+}
+
+.mainContainerContacto {
+    .formRegister {
+        color: $color_4;
+
+        .formRegisterInput {
+            margin: 10px;
+        }
+    }
+
+    @include flex-wrap-evenly;
+    align-items: center;
+    margin: 20px;
+    align-content: center;
+    width: auto;
+
+    .ubicacionContactoMapa {
+        text-align: center;
+        list-style-type: none;
+        width: 500px;
+        height: auto;
+
+        ul {
+            li {
+                text-align: center;
+                justify-content: center;
+                align-items: center;
+                list-style-type: none;
+            }
+        }
+    }
+
+    .imgPrincipalIndexMapa {
+        h3 {
+            text-align: center;
+        }
+    }
+}
+
+.mapaResponsive {
+    overflow: hidden;
+    padding-bottom: 100%;
+    position: relative;
+    height: 0;
+    margin: 10px;
+
+    iframe {
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+    }
+}

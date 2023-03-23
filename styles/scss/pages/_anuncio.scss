@@ -1,0 +1,17 @@
+.anuncio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    a {
+        color: $color_1;
+        font-size: 20px;
+        text-decoration: none;
+        text-align: center;
+
+        &:hover {
+            color: $color_2;
+        }
+    }
+}

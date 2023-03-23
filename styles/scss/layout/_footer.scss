@@ -1,0 +1,93 @@
+footer {
+    background-color: $background-color_3;
+    padding: 10px 0px;
+    background-image: url(../../images/backgroundFooter.png);
+    background-size: cover;
+    margin-top: 10px;
+
+    .cajaSuscripcionFooter {
+        text-align: center;
+        max-width: 400px;
+        color: $color_4;
+        padding: 10px;
+    }
+
+    .grupoFooterArriba {
+        width: 100%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 50px;
+
+        .box {
+            figure {
+                width: 100%;
+                height: 100%;
+                @include flex-wrap-evenly;
+                flex-direction: row;
+                margin: 25px;
+
+
+                img {
+                    width: 150px;
+                }
+            }
+
+            h2 {
+                color: $color_4;
+                margin-bottom: 25px;
+                font-size: 30px;
+                text-align: center;
+            }
+
+            p {
+                color: $color_4;
+                margin-bottom: 10px;
+                font-size: 15px;
+                text-align: center;
+            }
+
+            .redesSociales {
+                display: flex;
+                justify-content: space-evenly;
+                margin-bottom: 30px;
+            }
+
+            .navbar-nav {
+                a {
+                    color: $color_4;
+                    margin-bottom: 10px;
+                    font-size: 20px;
+                    text-align: center;
+                }
+            }
+        }
+    }
+
+    a {
+        &:hover {
+            opacity: 0.8;
+        }
+
+        .fa-brands {
+            font-size: 30px;
+            color: $color_5;
+        }
+
+        .fa-regular {
+            font-size: 30px;
+            color: $color_5;
+        }
+    }
+
+    .grupoFooterBajo {
+        margin: auto;
+        padding: 0px 40px;
+        text-align: center;
+        color: $color_4;
+
+        p {
+            margin-top: 20px;
+        }
+    }
+}

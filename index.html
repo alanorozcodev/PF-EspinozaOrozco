@@ -9,7 +9,10 @@
     <!--CDN Bootstrap-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!--CSS-->
     <link rel="stylesheet" href="./styles/css/style.css">
+    <!--AOS-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!--SEO-->
     <title>C.D. Jesalia | Odontologa</title>
     <meta name="description"
@@ -21,7 +24,7 @@
 <body>
     <!--Anuncio-->
     <aside>
-        <div class="anuncio">
+        <div data-aos="fade-up" data-aos-easing="linear" data-aos-duration="800" class="anuncio">
             <a href="./pages/contacto.html">No dejes pasar más tiempo y cuida tu salud dental! Agenda tu cita aqui</a>
         </div>
     </aside>
@@ -65,6 +68,7 @@
                     <img src="./images/carrusel3.png" class="d-block w-100 img-fluid" alt="Agenda tu cita aqui"></a>
             </div>
         </div>
+        <!--Botones de carrusel-->
         <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Previous</span>
@@ -82,7 +86,7 @@
         </header>
         <div class="textoInformativoIndex">
             <div class="parrafosIndex">
-                <div class="parrafosIndexSuperior">
+                <div data-aos="fade-up" data-aos-easing="linear" data-aos-duration="500" class="parrafosIndexSuperior">
                     <p>En la Clínica Dental C.D. Jeslia Espinoza ofrecemos servicios odontológicos de máxima calidad y
                         una
                         atención
@@ -94,7 +98,7 @@
                         niños, utilizando las mejores técnicas y
                         métodos de última generación.</p>
                 </div>
-                <div class="parrafosIndexInferior">
+                <div data-aos="fade-up" data-aos-easing="linear" data-aos-duration="500" class="parrafosIndexInferior">
                     <h4>Por qué escoger nuestro servicios?</h4>
                     <p>Ofrecemos la mejor atencion centrada en el paciente ademas de ofrecer los mejores servicios para
                         el
@@ -107,20 +111,23 @@
                     </p>
                 </div>
             </div>
-            <div class="imgPrincipalIndex"><img src="./images/dentistmockup.jpg" alt="imagen generica de dentista"
-                    style="max-width: 100%">
+            <!--Imagen del dentista trabajando-->
+            <div data-aos="flip-up" data-aos-easing="linear" data-aos-duration="500" class="imgPrincipalIndex"><img
+                    src="./images/dentistmockup.jpg" alt="imagen generica de dentista" style="max-width: 100%">
             </div>
         </div>
     </section>
     <!--Footer-->
-    <footer>
+    <footer data-aos="fade-up" data-aos-easing="linear">
         <div class="grupoFooterArriba">
+            <!--Logo footer-->
             <div class="box">
                 <figure>
                     <a href="#"><img src="./images/logo.png" alt="Logo"></a>
                     <p>"Comprometidos al cuidado y salud de tu sonrisa"</p>
                 </figure>
             </div>
+            <!--Navbar footer-->
             <div class="box">
                 <div class="navbar-nav">
                     <a class="nav-link active" aria-current="page" href="#">Inicio</a>
@@ -130,11 +137,14 @@
                     <a class="nav-link" href="./pages/contacto.html">Contacto</a>
                 </div>
             </div>
+            <!--Datos de contacto footer-->
             <div class="box">
                 <h2>Datos de contacto</h2>
-                <p>Telefono de contacto: 3333333333</p>
-                <p>Direccion: Av siempre viva 1234</p>
+                <p>Telefono de contacto: 3330244397</p>
+                <p>Direccion: Av. Chapalita 1321</p>
+                <p>Col. Chapalita, 44510 Guadalajara, Jal.</p>
             </div>
+            <!--Redes footer-->
             <div class="box">
                 <h2>Redes Sociales</h2>
                 <div class="redesSociales">
@@ -144,8 +154,17 @@
                             class="fa-brands fa-instagram"></i></a>
                     <a href="mailto:jesaliaespinoza04@gmail.com?Subject=Me%20interesa%20agendar%20una%20cita"><i
                             class="fa-regular fa-envelope"></i></a>
-                    <a href="https://www.facebook.com/profile.php?id=100069819045703"><i
+                    <a href="https://www.facebook.com/profile.php?id=100069819045703" target="_blank"><i
                             class="fa-brands fa-facebook"></i></a>
+                </div>
+                <!--Subscripcion footer-->
+                <div class="cajaSuscripcionFooter">
+                    <form action="#">
+                        <h2>Newsletter</h2>
+                        <p>Suscribete a nuestro boletin para saber de nuestras promociones antes que nadie</p>
+                        <input type="email" placeholder="Direccion de email...">
+                        <button class="btn btn-primary" type="submit">Suscribete</button>
+                    </form>
                 </div>
             </div>
         </div>
@@ -157,7 +176,13 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
         crossorigin="anonymous"></script>
+    <!--FontAwesome-->
     <script src="https://kit.fontawesome.com/3284a2937b.js" crossorigin="anonymous"></script>
+    <!--AOS JS-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>

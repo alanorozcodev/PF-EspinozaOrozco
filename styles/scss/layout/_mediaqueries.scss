@@ -1,0 +1,272 @@
+@media (min-width: 1200px) {
+    .row-cols-xl-4 {
+        >* {
+            margin-bottom: 30px;
+        }
+    }
+}
+
+@media (min-width: 992px) {
+    .row-cols-lg-3 {
+        >* {
+            margin-bottom: 30px;
+        }
+    }
+}
+
+@media (min-width: 768px) {
+    .row-cols-md-2 {
+        >* {
+            margin-bottom: 30px;
+        }
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .textoInformativoIndex {
+        padding: 0px;
+    }
+
+    .promociones {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    #carouselPromotionsControls {
+        padding: 0px;
+    }
+
+    .textoInformativoSobreNosotros {
+        padding: 0px;
+
+        .textoInformativo {
+            width: auto;
+            margin: 10px;
+
+            p {
+                text-align: center;
+            }
+        }
+    }
+
+    .formRegister {
+        margin-top: 0px;
+        padding: 10px;
+        margin-bottom: 20px;
+        width: 50vh;
+        padding: 10px;
+
+    }
+
+    .mainContainerContacto {
+        flex-wrap: nowrap;
+
+        .formRegister {
+            .formRegisterInput {
+                margin: 0px;
+            }
+        }
+
+        .ubicacionContactoMapa {
+            width: 50vh;
+
+            ul {
+                text-align: center;
+                padding: 0px;
+            }
+        }
+    }
+
+    footer {
+        .grupoFooterArriba {
+            width: 75%;
+            grid-template-columns: repeat(2, 1fr);
+            grid-gap: 40px;
+        }
+    }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    .anuncio {
+        a {
+            font-size: 15px;
+        }
+    }
+
+    #carousel {
+        display: none;
+    }
+
+    .tituloIndex {
+        h1 {
+            font-size: 30px;
+        }
+
+        p {
+            font-size: 15px;
+        }
+    }
+
+    .textoInformativoIndex {
+        padding: 0px;
+        margin: 10px;
+    }
+
+    .parrafosIndexSuperior {
+        padding: 10px;
+        margin: 10px;
+    }
+
+    .parrafosIndexInferior {
+        padding: 10px;
+        margin: 10px;
+    }
+
+    #formatoServicios {
+        padding: 0;
+    }
+
+    .textoInformativoServicios {
+        h1 {
+            font-size: 30px;
+        }
+
+        p {
+            font-size: 15px;
+        }
+
+        padding: 0px;
+        margin: 10px;
+    }
+
+    .col {
+        margin-bottom: 15px;
+    }
+
+    .card.h-100 {
+        box-shadow: 5px 5px 2px lightblue;
+    }
+
+    .textoInformativoPromociones {
+        h1 {
+            font-size: 30px;
+        }
+
+        p {
+            font-size: 15px;
+        }
+
+        padding: 0px;
+        margin: 10px;
+    }
+
+    #carouselPromotionsControls {
+        width: auto;
+        padding: 0;
+        margin: 0;
+    }
+
+    .promociones {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .carouselPromociones {
+        margin: 20px;
+    }
+
+    .tituloSobreNosotros {
+        h1 {
+            font-size: 30px;
+        }
+
+        p {
+            font-size: 15px;
+        }
+
+        padding: 0px;
+        margin: 10px;
+    }
+
+    .textoInformativoSobreNosotros {
+        padding: 10px;
+        margin: 10px;
+
+        p {
+            font-size: 15px;
+        }
+    }
+
+    .textoInformativoContacto {
+        h1 {
+            font-size: 30px;
+        }
+
+        p {
+            font-size: 15px;
+        }
+
+        padding: 0px;
+        margin: 10px;
+    }
+
+    .formRegister {
+        margin-top: 0px;
+        padding: 10px;
+        margin-bottom: 20px;
+    }
+
+    .mainContainerContacto {
+        .formRegister {
+            .formRegisterInput {
+                margin: 0px;
+            }
+        }
+    }
+
+    .ubicacionContactoMapa {
+        ul {
+            padding-left: 0px;
+        }
+    }
+
+    .cajaSuscripcion {
+        padding: 10px;
+        margin: 10px;
+    }
+
+    footer {
+        .grupoFooterArriba {
+            .box {
+                figure {
+                    img {
+                        width: 100px;
+                    }
+
+                    margin: 0px;
+                    flex-wrap: wrap;
+                    flex-direction: column;
+                    align-items: center;
+                }
+
+                .navbar-nav {
+                    a {
+                        font-size: 15px;
+                        margin-bottom: 0px;
+                    }
+                }
+
+                h2 {
+                    margin-bottom: 15px;
+                    font-size: 20px;
+                }
+
+                p {
+                    font-size: 13px;
+                }
+            }
+
+            width: 90%;
+            grid-template-columns: repeat(1, 1fr);
+            grid-gap: 0px;
+        }
+    }
+}

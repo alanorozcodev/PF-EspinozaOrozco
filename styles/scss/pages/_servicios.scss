@@ -1,0 +1,48 @@
+.textoInformativoServicios {
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    @include flex-nowrap-center;
+
+    h1 {
+        font-size: 50px;
+        font-weight: bold;
+    }
+
+    p {
+        font-size: 25px;
+        font-style: italic;
+        color: $color_3;
+    }
+}
+
+#formatoServicios {
+    padding: 40px;
+    .container-fluid {
+        .row.row-cols-1.row-cols-md-2.row-cols-lg-4 {
+            .col {
+                margin-bottom: 30px;
+            }
+        }
+    }
+}
+
+.card.h-100.mw-100 {
+    box-shadow: 10px 10px 5px lightblue;
+    margin: 10px;
+    width: auto;
+}
+
+.card-footer {
+    text-align: center;
+
+    a {
+        color: $color_6;
+        text-decoration: none;
+
+        &:hover {
+            color: $color_1
+        }
+    }
+}

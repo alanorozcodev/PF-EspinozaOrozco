@@ -1,0 +1,48 @@
+.tituloIndex {
+    text-align: center;
+
+    h1 {
+        font-size: 50px;
+        font-weight: bold;
+    }
+
+    p {
+        font-size: 30px;
+        font-weight: bold;
+    }
+}
+
+.textoInformativoIndex {
+    padding: 40px;
+    @include flex-wrap-evenly;
+    width: auto;
+    align-items: center;
+
+    p {
+        font-style: italic;
+        color: $color_3;
+    }
+}
+
+.parrafosIndex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 50vh;
+}
+
+.parrafosIndexSuperior {
+    @include margin-padding-justify;
+}
+
+.parrafosIndexInferior {
+    @include margin-padding-justify;
+    text-decoration: none;
+}
+
+.imgPrincipalIndex {
+    max-width: 100%;
+    object-fit: cover;
+    margin: 10px;
+}

@@ -9,7 +9,10 @@
     <!--CDN Bootstrap-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!--CSS-->
     <link rel="stylesheet" href="../styles/css/style.css">
+    <!--AOS-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!--SEO-->
     <title>C.D. Jesalia | Contacto</title>
     <meta name="description"
@@ -23,7 +26,7 @@
 
     <!--Anuncio-->
     <aside>
-        <div class="anuncio">
+        <div data-aos="fade-up" data-aos-easing="linear" data-aos-duration="800" class="anuncio">
             <a href="./contacto.html">No dejes pasar más tiempo y cuida tu salud dental! Agenda tu cita aqui</a>
         </div>
     </aside>
@@ -68,6 +71,7 @@
                     <img src="../images/carrusel3.png" class="d-block w-100 img-fluid" alt="Agenda tu cita aqui"></a>
             </div>
         </div>
+        <!--Botones de carrusel-->
         <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Previous</span>
@@ -88,7 +92,8 @@
             </p>
         </header>
         <div class="mainContainerContacto">
-            <form class="formRegister">
+            <!--Forma de registro-->
+            <form data-aos="zoom-out" data-aos-easing="linear" data-aos-duration="800" class="formRegister">
                 <h3>Datos de contacto</h3>
                 <label for="nombre">Nombre(s)</label>
                 <input class="formRegisterInput" type="text" name="nombre" id="nombre" required>
@@ -102,23 +107,25 @@
                 <input class="formRegisterInput" type="email" name="email" id="email">
                 <label for="servicio">Razon de su contacto</label>
                 <textarea name="servicio" id="servicio" cols="30" rows="10" required></textarea>
-                <!--radio button-->
                 <label for="primera-visita">Primera visita</label>
                 <input class="formRegisterInput" type="radio" name="tipo-de-cliente" value="primera-visita"
                     id="primera-visita">
                 <label for="seguimiento">Seguimiento</label>
                 <input class="formRegisterInput" type="radio" name="tipo-de-cliente" value="seguimiento"
                     id="seguimiento">
-                <input type="submit" value="Enviar">
+                <input class="btn btn-primary" type="submit" value="Enviar">
             </form>
+            <!--Datos de Contacto-->
             <div class="ubicacionContactoMapa">
                 <h3>Medios de contacto</h3>
                 <ul>
-                    <li>Telefono de contacto: 3333333333</li>
-                    <li>Correo electronico: fake@fakemail.com</li>
+                    <li>Telefono de contacto: 3330244397</li>
+                    <li>Correo electronico: jesaliaespinoza04@gmail.com</li>
                 </ul>
                 <h3>Nuestra ubicacion</h3>
-                <p>Direccion: Av siempre viva 1234</p>
+                <p>Direccion: Av. Chapalita 1321</p>
+                <p>Col. Chapalita, 44510 Guadalajara, Jal.</p>
+                <!--Mapa-->
                 <div class="mapaResponsive"><iframe
                         src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d233.32799701479811!2d-103.394912!3d20.659489!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8428add7a23ff487%3A0x5e7d76670ee3ba19!2sAv.%20Chapalita%201321%2C%20Chapalita%2C%2044510%20Guadalajara%2C%20Jal.!5e0!3m2!1ses-419!2smx!4v1678850265507!5m2!1ses-419!2smx"
                         width="100" height="100" style="border:0;" allowfullscreen="" loading="lazy"
@@ -128,7 +135,8 @@
         </div>
     </section>
     <!--Footer-->
-    <footer>
+    <footer data-aos="fade-up" data-aos-easing="linear">
+        <!--Logo footer-->
         <div class="grupoFooterArriba">
             <div class="box">
                 <figure>
@@ -138,6 +146,7 @@
                     <p>"Comprometidos al cuidado y salud de tu sonrisa"</p>
                 </figure>
             </div>
+            <!--Navbar footer-->
             <div class="box">
                 <div class="navbar-nav">
                     <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
@@ -147,11 +156,14 @@
                     <a class="nav-link" href="../pages/contacto.html">Contacto</a>
                 </div>
             </div>
+            <!--Datos de contacto footer-->
             <div class="box">
                 <h2>Datos de contacto</h2>
-                <p>Telefono de contacto: 3333333333</p>
-                <p>Direccion: Av siempre viva 1234</p>
+                <p>Telefono de contacto: 3330244397</p>
+                <p>Direccion: Av. Chapalita 1321</p>
+                <p>Col. Chapalita, 44510 Guadalajara, Jal.</p>
             </div>
+            <!--Redes footer-->
             <div class="box">
                 <h2>Redes Sociales</h2>
                 <div class="redesSociales">
@@ -161,8 +173,17 @@
                             class="fa-brands fa-instagram"></i></a>
                     <a href="mailto:jesaliaespinoza04@gmail.com?Subject=Me%20interesa%20agendar%20una%20cita"><i
                             class="fa-regular fa-envelope"></i></a>
-                    <a href="https://www.facebook.com/profile.php?id=100069819045703"><i
+                    <a href="https://www.facebook.com/profile.php?id=100069819045703" target="_blank"><i
                             class="fa-brands fa-facebook"></i></a>
+                </div>
+                <!--Subscripcion footer-->
+                <div class="cajaSuscripcionFooter">
+                    <form action="#">
+                        <h2>Newsletter</h2>
+                        <p>Suscribete a nuestro boletin para saber de nuestras promociones antes que nadie</p>
+                        <input type="email" placeholder="Direccion de email...">
+                        <button class="btn btn-primary" type="submit">Suscribete</button>
+                    </form>
                 </div>
             </div>
         </div>
@@ -174,7 +195,13 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
         crossorigin="anonymous"></script>
+    <!--FontAwesome-->
     <script src="https://kit.fontawesome.com/3284a2937b.js" crossorigin="anonymous"></script>
+    <!--AOS JS-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>

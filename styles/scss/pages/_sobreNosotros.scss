@@ -1,0 +1,50 @@
+.cajaSuscripcion {
+    text-align: center;
+    max-width: 400px;
+    background: $background-color_2;
+    color: $color_4;
+    padding: 10px;
+    margin: 30px;
+}
+
+.tituloSobreNosotros {
+    text-align: center;
+
+    h3 {
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 50px;
+        font-weight: bold;
+    }
+
+    p {
+        font-size: 25px;
+        font-style: italic;
+        color: $color_3;
+    }
+}
+
+.textoInformativoSobreNosotros {
+    padding: 40px;
+    @include flex-wrap-evenly;
+    width: auto;
+    align-items: center;
+
+    .textoInformativo {
+        text-align: justify;
+        justify-content: center;
+        width: 50vh;
+
+        h3 {
+            text-align: center;
+        }
+    }
+}
+
+.imgSobreNosotros {
+    width: 50vh;
+    object-fit: cover;
+    margin-bottom: 30px;
+}
