@@ -1,670 +1,578 @@
 /*Reset*/
 * {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
 
 a:link {
-    text-decoration: none;
+  text-decoration: none;
 }
-
 a:visited {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 /*Variables*/
 /*Mixins*/
 /*Anuncio*/
 .anuncio {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
-
 .anuncio a {
-    color: rgb(27, 175, 167);
-    font-size: 20px;
-    text-decoration: none;
-    text-align: center;
+  color: rgb(27, 175, 167);
+  font-size: 20px;
+  text-decoration: none;
+  text-align: center;
 }
-
 .anuncio a:hover {
-    color: rgba(4, 53, 51, 0.745);
+  color: rgba(4, 53, 51, 0.745);
 }
 
 /*Index*/
 .tituloIndex {
-    text-align: center;
+  text-align: center;
 }
-
 .tituloIndex h1 {
-    font-size: 50px;
-    font-weight: bold;
+  font-size: 50px;
+  font-weight: bold;
 }
-
 .tituloIndex p {
-    font-size: 30px;
-    font-weight: bold;
+  font-size: 30px;
+  font-weight: bold;
 }
 
 .textoInformativoIndex {
-    padding: 40px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    width: auto;
-    align-items: center;
+  padding: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: auto;
+  align-items: center;
 }
-
 .textoInformativoIndex p {
-    font-style: italic;
-    color: #000000;
+  font-style: italic;
+  color: #000000;
 }
 
 .parrafosIndex {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    width: 50vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 50vh;
 }
 
 .parrafosIndexSuperior {
-    margin: 10px;
-    padding: 15px;
-    text-align: justify;
+  margin: 10px;
+  padding: 15px;
+  text-align: justify;
 }
 
 .parrafosIndexInferior {
-    margin: 10px;
-    padding: 15px;
-    text-align: justify;
-    text-decoration: none;
+  margin: 10px;
+  padding: 15px;
+  text-align: justify;
+  text-decoration: none;
 }
 
 .imgPrincipalIndex {
-    max-width: 100%;
-    object-fit: cover;
-    margin: 10px;
+  max-width: 100%;
+  object-fit: cover;
+  margin: 10px;
 }
 
 /*Servicios*/
 .textoInformativoServicios {
-    padding: 20px;
-    text-align: center;
-    align-items: center;
-    flex-direction: column;
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: center;
+  padding: 20px;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
 }
-
 .textoInformativoServicios h1 {
-    font-size: 50px;
-    font-weight: bold;
+  font-size: 50px;
+  font-weight: bold;
 }
-
 .textoInformativoServicios p {
-    font-size: 25px;
-    font-style: italic;
-    color: #000000;
+  font-size: 25px;
+  font-style: italic;
+  color: #000000;
 }
 
 #formatoServicios {
-    padding: 40px;
+  padding: 40px;
 }
-
 #formatoServicios .container-fluid .row.row-cols-1.row-cols-md-2.row-cols-lg-4 .col {
-    margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 .card.h-100.mw-100 {
-    box-shadow: 10px 10px 5px lightblue;
-    margin: 10px;
-    width: auto;
+  box-shadow: 10px 10px 5px lightblue;
+  margin: 10px;
+  width: auto;
 }
 
 .card-footer {
-    text-align: center;
+  text-align: center;
 }
-
 .card-footer a {
-    color: rgba(43, 88, 194, 0.755);
-    text-decoration: none;
+  color: rgba(43, 88, 194, 0.755);
+  text-decoration: none;
 }
-
 .card-footer a:hover {
-    color: rgb(27, 175, 167);
+  color: rgb(27, 175, 167);
 }
 
 /*Promociones*/
 .textoInformativoPromociones {
-    padding: 20px;
-    text-align: center;
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
-
 .textoInformativoPromociones h1 {
-    font-size: 50px;
-    font-weight: bold;
+  font-size: 50px;
+  font-weight: bold;
 }
-
 .textoInformativoPromociones p {
-    font-size: 25px;
-    font-style: italic;
-    color: #000000;
+  font-size: 25px;
+  font-style: italic;
+  color: #000000;
 }
 
 #carouselPromotionsControls {
-    padding: 40px;
-    margin: 20px;
-    width: auto;
+  padding: 40px;
+  margin: 20px;
+  width: auto;
 }
-
 #carouselPromotionsControls .carousel-indicators button {
-    background-color: black;
+  background-color: black;
 }
 
 .carouselPromociones {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    width: 100%;
-    margin-left: 30px;
-    padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  margin-left: 30px;
+  padding: 10px;
 }
 
 .promociones {
-    width: 100%;
-    margin: auto;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    justify-items: center;
-    align-items: center;
+  width: 100%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+  align-items: center;
 }
 
 /*Sobre Nosotros*/
 .cajaSuscripcion {
-    text-align: center;
-    max-width: 400px;
-    background: linear-gradient(to top, rgba(89, 168, 238, 0.6), rgb(19, 83, 139));
-    color: white;
-    padding: 10px;
-    margin: 30px;
+  text-align: center;
+  max-width: 400px;
+  background: linear-gradient(to top, rgba(89, 168, 238, 0.6), rgb(19, 83, 139));
+  color: white;
+  padding: 10px;
+  margin: 30px;
 }
 
 .tituloSobreNosotros {
-    text-align: center;
+  text-align: center;
 }
-
 .tituloSobreNosotros h3 {
-    text-align: center;
+  text-align: center;
 }
-
 .tituloSobreNosotros h1 {
-    font-size: 50px;
-    font-weight: bold;
+  font-size: 50px;
+  font-weight: bold;
 }
-
 .tituloSobreNosotros p {
-    font-size: 25px;
-    font-style: italic;
-    color: #000000;
+  font-size: 25px;
+  font-style: italic;
+  color: #000000;
 }
 
 .textoInformativoSobreNosotros {
-    padding: 40px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    width: auto;
-    align-items: center;
+  padding: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: auto;
+  align-items: center;
 }
-
 .textoInformativoSobreNosotros .textoInformativo {
-    text-align: justify;
-    justify-content: center;
-    width: 50vh;
+  text-align: justify;
+  justify-content: center;
+  width: 50vh;
 }
-
 .textoInformativoSobreNosotros .textoInformativo h3 {
-    text-align: center;
+  text-align: center;
 }
 
 .imgSobreNosotros {
-    width: 50vh;
-    object-fit: cover;
-    margin-bottom: 30px;
+  width: 50vh;
+  object-fit: cover;
+  margin-bottom: 30px;
 }
 
 /*Contacto*/
 .textoInformativoContacto {
-    padding: 10px;
-    text-align: center;
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+  padding: 10px;
+  text-align: center;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
-
 .textoInformativoContacto h1 {
-    font-size: 50px;
-    font-weight: bold;
+  font-size: 50px;
+  font-weight: bold;
 }
-
 .textoInformativoContacto p {
-    font-size: 25px;
-    font-style: italic;
-    color: #000000;
+  font-size: 25px;
+  font-style: italic;
+  color: #000000;
 }
 
 .formRegister {
-    text-align: center;
-    width: 50vh;
-    padding: 40px;
-    margin-top: 100px;
-    background: linear-gradient(to top, rgba(89, 168, 238, 0.6), rgb(19, 83, 139));
+  text-align: center;
+  width: 50vh;
+  padding: 40px;
+  margin-top: 100px;
+  background: linear-gradient(to top, rgba(89, 168, 238, 0.6), rgb(19, 83, 139));
 }
-
 .formRegister .formRegisterInput {
-    width: 100%;
+  width: 100%;
 }
 
 .mainContainerContacto {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-items: center;
-    margin: 20px;
-    align-content: center;
-    width: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 20px;
+  align-content: center;
+  width: auto;
 }
-
 .mainContainerContacto .formRegister {
-    color: white;
+  color: white;
 }
-
 .mainContainerContacto .formRegister .formRegisterInput {
-    margin: 10px;
+  margin: 10px;
 }
-
 .mainContainerContacto .ubicacionContactoMapa {
-    text-align: center;
-    list-style-type: none;
-    width: 500px;
-    height: auto;
+  text-align: center;
+  list-style-type: none;
+  width: 500px;
+  height: auto;
 }
-
 .mainContainerContacto .ubicacionContactoMapa ul li {
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    list-style-type: none;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
 }
-
 .mainContainerContacto .imgPrincipalIndexMapa h3 {
-    text-align: center;
+  text-align: center;
 }
 
 .mapaResponsive {
-    overflow: hidden;
-    padding-bottom: 100%;
-    position: relative;
-    height: 0;
-    margin: 10px;
+  overflow: hidden;
+  padding-bottom: 100%;
+  position: relative;
+  height: 0;
+  margin: 10px;
 }
-
 .mapaResponsive iframe {
-    left: 0;
-    top: 0;
-    height: 100%;
-    width: 100%;
-    position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
 }
 
 /*Footer*/
 footer {
-    background-color: rgb(19, 83, 139);
-    padding: 10px 0px;
-    background-image: url(../../images/backgroundFooter.png);
-    background-size: cover;
-    margin-top: 10px;
+  background-color: rgb(19, 83, 139);
+  padding: 10px 0px;
+  background-image: url(../../images/backgroundFooter.png);
+  background-size: cover;
+  margin-top: 10px;
 }
-
 footer .cajaSuscripcionFooter {
-    text-align: center;
-    max-width: 400px;
-    color: white;
-    padding: 10px;
+  text-align: center;
+  max-width: 400px;
+  color: white;
+  padding: 10px;
 }
-
 footer .grupoFooterArriba {
-    width: 100%;
-    margin: auto;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 50px;
+  width: 100%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 50px;
 }
-
 footer .grupoFooterArriba .box figure {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    flex-direction: row;
-    margin: 25px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  flex-direction: row;
+  margin: 25px;
 }
-
 footer .grupoFooterArriba .box figure img {
-    width: 150px;
+  width: 150px;
 }
-
 footer .grupoFooterArriba .box h2 {
-    color: white;
-    margin-bottom: 25px;
-    font-size: 30px;
-    text-align: center;
+  color: white;
+  margin-bottom: 25px;
+  font-size: 30px;
+  text-align: center;
 }
-
 footer .grupoFooterArriba .box p {
-    color: white;
-    margin-bottom: 10px;
-    font-size: 15px;
-    text-align: center;
+  color: white;
+  margin-bottom: 10px;
+  font-size: 15px;
+  text-align: center;
 }
-
 footer .grupoFooterArriba .box .redesSociales {
-    display: flex;
-    justify-content: space-evenly;
-    margin-bottom: 30px;
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 30px;
 }
-
 footer .grupoFooterArriba .box .navbar-nav a {
-    color: white;
-    margin-bottom: 10px;
-    font-size: 20px;
-    text-align: center;
+  color: white;
+  margin-bottom: 10px;
+  font-size: 20px;
+  text-align: center;
 }
-
 footer a:hover {
-    opacity: 0.8;
+  opacity: 0.8;
 }
-
 footer a .fa-brands {
-    font-size: 30px;
-    color: black;
+  font-size: 30px;
+  color: black;
 }
-
 footer a .fa-regular {
-    font-size: 30px;
-    color: black;
+  font-size: 30px;
+  color: black;
 }
-
 footer .grupoFooterBajo {
-    margin: auto;
-    padding: 0px 40px;
-    text-align: center;
-    color: white;
+  margin: auto;
+  padding: 0px 40px;
+  text-align: center;
+  color: white;
 }
-
 footer .grupoFooterBajo p {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 
 /*Media Queries*/
 @media (min-width: 1200px) {
-    .row-cols-xl-4>* {
-        margin-bottom: 30px;
-    }
+  .row-cols-xl-4 > * {
+    margin-bottom: 30px;
+  }
 }
-
 @media (min-width: 992px) {
-    .row-cols-lg-3>* {
-        margin-bottom: 30px;
-    }
+  .row-cols-lg-3 > * {
+    margin-bottom: 30px;
+  }
 }
-
 @media (min-width: 768px) {
-    .row-cols-md-2>* {
-        margin-bottom: 30px;
-    }
+  .row-cols-md-2 > * {
+    margin-bottom: 30px;
+  }
 }
-
 @media (min-width: 768px) and (max-width: 1023px) {
-    .textoInformativoIndex {
-        padding: 0px;
-    }
-
-    .promociones {
-        grid-template-columns: repeat(1, 1fr);
-    }
-
-    #carouselPromotionsControls {
-        padding: 0px;
-    }
-
-    .textoInformativoSobreNosotros {
-        padding: 0px;
-    }
-
-    .textoInformativoSobreNosotros .textoInformativo {
-        width: auto;
-        margin: 10px;
-    }
-
-    .textoInformativoSobreNosotros .textoInformativo p {
-        text-align: center;
-    }
-
-    .formRegister {
-        margin-top: 0px;
-        padding: 10px;
-        margin-bottom: 20px;
-        width: 50vh;
-        padding: 10px;
-    }
-
-    .mainContainerContacto {
-        flex-wrap: nowrap;
-    }
-
-    .mainContainerContacto .formRegister .formRegisterInput {
-        margin: 0px;
-    }
-
-    .mainContainerContacto .ubicacionContactoMapa {
-        width: 50vh;
-    }
-
-    .mainContainerContacto .ubicacionContactoMapa ul {
-        text-align: center;
-        padding: 0px;
-    }
-
-    footer .grupoFooterArriba {
-        width: 75%;
-        grid-template-columns: repeat(2, 1fr);
-        grid-gap: 40px;
-    }
+  .textoInformativoIndex {
+    padding: 0px;
+  }
+  .promociones {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  #carouselPromotionsControls {
+    padding: 0px;
+  }
+  .textoInformativoSobreNosotros {
+    padding: 0px;
+  }
+  .textoInformativoSobreNosotros .textoInformativo {
+    width: auto;
+    margin: 10px;
+  }
+  .textoInformativoSobreNosotros .textoInformativo p {
+    text-align: center;
+  }
+  .formRegister {
+    margin-top: 0px;
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 50vh;
+    padding: 10px;
+  }
+  .mainContainerContacto {
+    flex-wrap: nowrap;
+  }
+  .mainContainerContacto .formRegister .formRegisterInput {
+    margin: 0px;
+  }
+  .mainContainerContacto .ubicacionContactoMapa {
+    width: 50vh;
+  }
+  .mainContainerContacto .ubicacionContactoMapa ul {
+    text-align: center;
+    padding: 0px;
+  }
+  footer .grupoFooterArriba {
+    width: 75%;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 40px;
+  }
 }
-
 @media (min-width: 320px) and (max-width: 767px) {
-    .anuncio a {
-        font-size: 15px;
-    }
-
-    #carousel {
-        display: none;
-    }
-
-    .tituloIndex h1 {
-        font-size: 30px;
-    }
-
-    .tituloIndex p {
-        font-size: 15px;
-    }
-
-    .textoInformativoIndex {
-        padding: 0px;
-        margin: 10px;
-    }
-
-    .parrafosIndexSuperior {
-        padding: 10px;
-        margin: 10px;
-    }
-
-    .parrafosIndexInferior {
-        padding: 10px;
-        margin: 10px;
-    }
-
-    #formatoServicios {
-        padding: 0;
-    }
-
-    .textoInformativoServicios {
-        padding: 0px;
-        margin: 10px;
-    }
-
-    .textoInformativoServicios h1 {
-        font-size: 30px;
-    }
-
-    .textoInformativoServicios p {
-        font-size: 15px;
-    }
-
-    .col {
-        margin-bottom: 15px;
-    }
-
-    .card.h-100 {
-        box-shadow: 5px 5px 2px lightblue;
-    }
-
-    .textoInformativoPromociones {
-        padding: 0px;
-        margin: 10px;
-    }
-
-    .textoInformativoPromociones h1 {
-        font-size: 30px;
-    }
-
-    .textoInformativoPromociones p {
-        font-size: 15px;
-    }
-
-    #carouselPromotionsControls {
-        width: auto;
-        padding: 0;
-        margin: 0;
-    }
-
-    .promociones {
-        grid-template-columns: repeat(1, 1fr);
-    }
-
-    .carouselPromociones {
-        margin: 20px;
-    }
-
-    .tituloSobreNosotros {
-        padding: 0px;
-        margin: 10px;
-    }
-
-    .tituloSobreNosotros h1 {
-        font-size: 30px;
-    }
-
-    .tituloSobreNosotros p {
-        font-size: 15px;
-    }
-
-    .textoInformativoSobreNosotros {
-        padding: 10px;
-        margin: 10px;
-    }
-
-    .textoInformativoSobreNosotros p {
-        font-size: 15px;
-    }
-
-    .textoInformativoContacto {
-        padding: 0px;
-        margin: 10px;
-    }
-
-    .textoInformativoContacto h1 {
-        font-size: 30px;
-    }
-
-    .textoInformativoContacto p {
-        font-size: 15px;
-    }
-
-    .formRegister {
-        margin-top: 0px;
-        padding: 10px;
-        margin-bottom: 20px;
-    }
-
-    .mainContainerContacto .formRegister .formRegisterInput {
-        margin: 0px;
-    }
-
-    .ubicacionContactoMapa ul {
-        padding-left: 0px;
-    }
-
-    .cajaSuscripcion {
-        padding: 10px;
-        margin: 10px;
-    }
-
-    footer .grupoFooterArriba {
-        width: 90%;
-        grid-template-columns: repeat(1, 1fr);
-        grid-gap: 0px;
-    }
-
-    footer .grupoFooterArriba .box figure {
-        margin: 0px;
-        flex-wrap: wrap;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    footer .grupoFooterArriba .box figure img {
-        width: 100px;
-    }
-
-    footer .grupoFooterArriba .box .navbar-nav a {
-        font-size: 15px;
-        margin-bottom: 0px;
-    }
-
-    footer .grupoFooterArriba .box h2 {
-        margin-bottom: 15px;
-        font-size: 20px;
-    }
-
-    footer .grupoFooterArriba .box p {
-        font-size: 13px;
-    }
+  .anuncio a {
+    font-size: 15px;
+  }
+  #carousel {
+    display: none;
+  }
+  .tituloIndex h1 {
+    font-size: 30px;
+  }
+  .tituloIndex p {
+    font-size: 15px;
+  }
+  .textoInformativoIndex {
+    padding: 0px;
+    margin: 10px;
+  }
+  .parrafosIndexSuperior {
+    padding: 10px;
+    margin: 10px;
+  }
+  .parrafosIndexInferior {
+    padding: 10px;
+    margin: 10px;
+  }
+  #formatoServicios {
+    padding: 0;
+  }
+  .textoInformativoServicios {
+    padding: 0px;
+    margin: 10px;
+  }
+  .textoInformativoServicios h1 {
+    font-size: 30px;
+  }
+  .textoInformativoServicios p {
+    font-size: 15px;
+  }
+  .col {
+    margin-bottom: 15px;
+  }
+  .card.h-100 {
+    box-shadow: 5px 5px 2px lightblue;
+  }
+  .textoInformativoPromociones {
+    padding: 0px;
+    margin: 10px;
+  }
+  .textoInformativoPromociones h1 {
+    font-size: 30px;
+  }
+  .textoInformativoPromociones p {
+    font-size: 15px;
+  }
+  #carouselPromotionsControls {
+    width: auto;
+    padding: 0;
+    margin: 0;
+  }
+  .promociones {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .carouselPromociones {
+    margin: 20px;
+  }
+  .tituloSobreNosotros {
+    padding: 0px;
+    margin: 10px;
+  }
+  .tituloSobreNosotros h1 {
+    font-size: 30px;
+  }
+  .tituloSobreNosotros p {
+    font-size: 15px;
+  }
+  .textoInformativoSobreNosotros {
+    padding: 10px;
+    margin: 10px;
+  }
+  .textoInformativoSobreNosotros p {
+    font-size: 15px;
+  }
+  .textoInformativoContacto {
+    padding: 0px;
+    margin: 10px;
+  }
+  .textoInformativoContacto h1 {
+    font-size: 30px;
+  }
+  .textoInformativoContacto p {
+    font-size: 15px;
+  }
+  .formRegister {
+    margin-top: 0px;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  .mainContainerContacto .formRegister .formRegisterInput {
+    margin: 0px;
+  }
+  .ubicacionContactoMapa ul {
+    padding-left: 0px;
+  }
+  .cajaSuscripcion {
+    padding: 10px;
+    margin: 10px;
+  }
+  footer .grupoFooterArriba {
+    width: 90%;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 0px;
+  }
+  footer .grupoFooterArriba .box figure {
+    margin: 0px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+  }
+  footer .grupoFooterArriba .box figure img {
+    width: 100px;
+  }
+  footer .grupoFooterArriba .box .navbar-nav a {
+    font-size: 15px;
+    margin-bottom: 0px;
+  }
+  footer .grupoFooterArriba .box h2 {
+    margin-bottom: 15px;
+    font-size: 20px;
+  }
+  footer .grupoFooterArriba .box p {
+    font-size: 13px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
