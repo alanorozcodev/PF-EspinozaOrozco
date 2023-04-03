@@ -1,3 +1,4 @@
 # PreEntrega3EspinozaOrozco
 Tercera pre entrega de proyecto coderhouse
 Se realizan las ultimas modificaciones de la pagina, ademas de la implementacion de mixins, variables, y la utilizacion del import en la pagina para tener un SASS mas limpio a la hora de trabajar, se añaden temas de animaciones para mostrar su funcionalidad
+Se realizaron modificaciones en apartado estetico de ciertas areas del diseño como las tarjetas, botones y nav bar. Se modifico la nav bar para tener un fondo y modificaciones en el apartado de centrado en el apartado mobile, se hicieron ciertos cambios en cuanto al nombre de algunas etiquetas semanticas asi como la optimizacion de algunos espacios para quedar mas prolijo el texto de la pagina, se modifico el form que se tenia para dejarlo mas responsive y prolijo para no tener problema en diferentes resoluciones de pantalla dejandolo listo y en completo agrado del cliente que en este caso es mi hermana que es dentista"
