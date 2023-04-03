@@ -1,16 +1,22 @@
-@mixin flex-wrap-evenly{
+@mixin flex-wrap-evenly {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
 
-@mixin flex-nowrap-center{
+@mixin flex-wrap-center {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+@mixin flex-nowrap-center {
     display: flex;
     flex-wrap: nowrap;
     justify-content: center;
 }
 
-@mixin margin-padding-justify{
+@mixin margin-padding-justify {
     margin: 10px;
     padding: 15px;
     text-align: justify;

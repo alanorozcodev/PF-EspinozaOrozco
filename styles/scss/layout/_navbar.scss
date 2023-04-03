@@ -1,0 +1,17 @@
+.navbar>.container,
+.navbar>.container-fluid,
+.navbar>.container-lg,
+.navbar>.container-md,
+.navbar>.container-sm,
+.navbar>.container-xl,
+.navbar>.container-xxl {
+    padding: 0px;
+}
+.navbar-brand {
+    margin: auto;
+    padding: 5px;
+}
+
+.navBackground {
+    background: $background-color_5
+}

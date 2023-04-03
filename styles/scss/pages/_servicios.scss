@@ -19,6 +19,7 @@
 
 #formatoServicios {
     padding: 40px;
+
     .container-fluid {
         .row.row-cols-1.row-cols-md-2.row-cols-lg-4 {
             .col {
@@ -32,13 +33,16 @@
     box-shadow: 10px 10px 5px lightblue;
     margin: 10px;
     width: auto;
+    border-radius: 20px;
 }
 
 .card-footer {
     text-align: center;
+    background: $background-color_4;
 
     a {
         color: $color_6;
+        font-weight: bold;
         text-decoration: none;
 
         &:hover {

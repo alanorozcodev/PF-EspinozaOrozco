@@ -1,0 +1,37 @@
+.btn-grad {
+    background-image: linear-gradient(to right, #000000 0%, #434343  51%, #000000  100%);
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    border-radius: 10px;
+    display: inline;
+
+    &:hover {
+        background-position: right center;
+        color: #fff;
+        text-decoration: none;
+    }
+}
+
+.btn-grad-sec {
+    background-image: linear-gradient(to right, #000000 0%, #434343  51%, #000000  100%);
+    margin: 10px;
+    padding: 10px 10px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    border-radius: 10px;
+    display: inline;
+
+    &:hover {
+        background-position: right center;
+        color: #fff;
+        text-decoration: none;
+    }
+}

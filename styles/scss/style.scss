@@ -1,11 +1,15 @@
 /*Reset*/
 @import "../scss/base/reset";
+/*Botones*/
+@import "../scss/base/botones";
 /*Variables*/
 @import "../scss/abstracts/variables";
 /*Mixins*/
 @import "../scss/abstracts/mixins";
 /*Anuncio*/
 @import "../scss/pages/anuncio";
+/*NavBar*/
+@import "../scss/layout/navbar";
 /*Index*/
 @import "../scss/pages/index";
 /*Servicios*/

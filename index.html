@@ -30,8 +30,8 @@
     </aside>
     <!--Barra de navegacion-->
     <header>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary ">
+            <div class="container-fluid navBackground">
                 <a class="navbar-brand" href="#"><img height="30" width="30" src="./images/logo.png"
                         alt="Logo consultorio"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -51,126 +51,135 @@
             </div>
         </nav>
     </header>
-    <!--Carrusel-->
-    <section id="carousel" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <a href="./pages/sobreNosotros.html">
-                    <img src="./images/carrusel1.png" class="d-block w-100 img-fluid"
-                        alt="El cuidado de tu sonrisa en las mejores manos"></a>
-            </div>
-            <div class="carousel-item">
-                <a href="./pages/servicios.html">
-                    <img src="./images/carrusel2.png" class="d-block w-100 img-fluid" alt="Servicios"></a>
-            </div>
-            <div class="carousel-item">
-                <a href="./pages/contacto.html">
-                    <img src="./images/carrusel3.png" class="d-block w-100 img-fluid" alt="Agenda tu cita aqui"></a>
-            </div>
-        </div>
-        <!--Botones de carrusel-->
-        <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
-    </section>
-    <!--Contenido de la pagina-->
-    <section>
-        <header class="tituloIndex">
-            <h1>Tu sonrisa, nuestra prioridad</h1>
-            <p>"Comprometidos al cuidado y salud de tu sonrisa"</p>
-        </header>
-        <div class="textoInformativoIndex">
-            <div class="parrafosIndex">
-                <div data-aos="fade-up" data-aos-easing="linear" data-aos-duration="500" class="parrafosIndexSuperior">
-                    <p>En la Clínica Dental C.D. Jeslia Espinoza ofrecemos servicios odontológicos de máxima calidad y
-                        una
-                        atención
-                        personalizada a cada uno de nuestros pacientes.</p>
-                    <p>Trabajamos con los últimos adelantos en técnicas, materiales y
-                        equipamiento, mejorando siempre nuestro nivel de atención.</p>
-                    <p> En nuestra clínica dental, dedicamos toda la atención a las enfermedades bucodentales de adultos
-                        y
-                        niños, utilizando las mejores técnicas y
-                        métodos de última generación.</p>
+
+    <main>
+        <!--Carrusel-->
+        <section id="carousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <a href="./pages/sobreNosotros.html">
+                        <img src="./images/carrusel1.png" class="d-block w-100 img-fluid"
+                            alt="El cuidado de tu sonrisa en las mejores manos"></a>
                 </div>
-                <div data-aos="fade-up" data-aos-easing="linear" data-aos-duration="500" class="parrafosIndexInferior">
-                    <h4>Por qué escoger nuestro servicios?</h4>
-                    <p>Ofrecemos la mejor atencion centrada en el paciente ademas de ofrecer los mejores servicios para
-                        el
-                        cuidado y salud de tu sonrisa sin afectar tu economia, ofrecemos
-                        servicios y tratamientos de 1er nivel usando la última tecnología y técnicas. Si quieres saber
-                        más
-                        de
-                        nuestros servicios da click
-                        <a href="./pages/servicios.html">aquí</a>
-                    </p>
+                <div class="carousel-item">
+                    <a href="./pages/servicios.html">
+                        <img src="./images/carrusel2.png" class="d-block w-100 img-fluid" alt="Servicios"></a>
+                </div>
+                <div class="carousel-item">
+                    <a href="./pages/contacto.html">
+                        <img src="./images/carrusel3.png" class="d-block w-100 img-fluid" alt="Agenda tu cita aqui"></a>
                 </div>
             </div>
-            <!--Imagen del dentista trabajando-->
-            <div data-aos="flip-up" data-aos-easing="linear" data-aos-duration="500" class="imgPrincipalIndex"><img
-                    src="./images/dentistmockup.jpg" alt="imagen generica de dentista" style="max-width: 100%">
+            <!--Botones de carrusel-->
+            <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </section>
+        <!--Contenido de la pagina-->
+        <section>
+            <div class="tituloIndex">
+                <h1>Tu sonrisa, nuestra prioridad</h1>
+                <p>"Comprometidos al cuidado y salud de tu sonrisa"</p>
             </div>
-        </div>
-    </section>
-    <!--Footer-->
-    <footer data-aos="fade-up" data-aos-easing="linear">
-        <div class="grupoFooterArriba">
-            <!--Logo footer-->
-            <div class="box">
-                <figure>
-                    <a href="#"><img src="./images/logo.png" alt="Logo"></a>
-                    <p>"Comprometidos al cuidado y salud de tu sonrisa"</p>
-                </figure>
-            </div>
-            <!--Navbar footer-->
-            <div class="box">
-                <div class="navbar-nav">
-                    <a class="nav-link active" aria-current="page" href="#">Inicio</a>
-                    <a class="nav-link" href="./pages/servicios.html">Servicios</a>
-                    <a class="nav-link" href="./pages/promociones.html">Promociones</a>
-                    <a class="nav-link" href="./pages/sobreNosotros.html">Sobre Nosotros</a>
-                    <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+            <div class="textoInformativoIndex">
+                <div class="parrafosIndex">
+                    <div data-aos="fade-up" data-aos-easing="linear" data-aos-duration="500"
+                        class="parrafosIndexSuperior">
+                        <p>En la Clínica Dental C.D. Jeslia Espinoza ofrecemos servicios odontológicos de máxima calidad
+                            y
+                            una
+                            atención
+                            personalizada a cada uno de nuestros pacientes.</p>
+                        <p>Trabajamos con los últimos adelantos en técnicas, materiales y
+                            equipamiento, mejorando siempre nuestro nivel de atención.</p>
+                        <p> En nuestra clínica dental, dedicamos toda la atención a las enfermedades bucodentales de
+                            adultos
+                            y
+                            niños, utilizando las mejores técnicas y
+                            métodos de última generación.</p>
+                    </div>
+                    <div data-aos="fade-up" data-aos-easing="linear" data-aos-duration="500"
+                        class="parrafosIndexInferior">
+                        <h4>Por qué escoger nuestro servicios?</h4>
+                        <p>Ofrecemos la mejor atencion centrada en el paciente ademas de ofrecer los mejores servicios
+                            para
+                            el
+                            cuidado y salud de tu sonrisa sin afectar tu economia, ofrecemos
+                            servicios y tratamientos de 1er nivel usando la última tecnología y técnicas. Si quieres
+                            saber
+                            más
+                            de
+                            nuestros servicios da click
+                            <a href="./pages/servicios.html">aquí</a>
+                        </p>
+                    </div>
+                </div>
+                <!--Imagen del dentista trabajando-->
+                <div data-aos="flip-up" data-aos-easing="linear" data-aos-duration="500" class="imgPrincipalIndex"><img
+                        src="./images/dentistmockup.jpg" alt="imagen generica de dentista" class="imgPrincipalIndex">
                 </div>
             </div>
-            <!--Datos de contacto footer-->
-            <div class="box">
-                <h2>Datos de contacto</h2>
-                <p>Telefono de contacto: 3330244397</p>
-                <p>Direccion: Av. Chapalita 1321</p>
-                <p>Col. Chapalita, 44510 Guadalajara, Jal.</p>
-            </div>
-            <!--Redes footer-->
-            <div class="box">
-                <h2>Redes Sociales</h2>
-                <div class="redesSociales">
-                    <a href="https://api.whatsapp.com/send?phone=5213330244397&text=Que%20tal%20buen%20dia%2C%20me%20interesaria%20poder%20agendar%20un%20servicio%20con%20usted"
-                        target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
-                    <a href="https://www.instagram.com/c.d.jesalia.espinoza/" target="_blank"><i
-                            class="fa-brands fa-instagram"></i></a>
-                    <a href="mailto:jesaliaespinoza04@gmail.com?Subject=Me%20interesa%20agendar%20una%20cita"><i
-                            class="fa-regular fa-envelope"></i></a>
-                    <a href="https://www.facebook.com/profile.php?id=100069819045703" target="_blank"><i
-                            class="fa-brands fa-facebook"></i></a>
+        </section>
+        <!--Footer-->
+        <footer data-aos="fade-up" data-aos-easing="linear">
+            <div class="grupoFooterArriba">
+                <!--Logo footer-->
+                <div class="box">
+                    <figure>
+                        <a href="#"><img src="./images/logo.png" alt="Logo"></a>
+                        <p>"Comprometidos al cuidado y salud de tu sonrisa"</p>
+                    </figure>
                 </div>
-                <!--Subscripcion footer-->
-                <div class="cajaSuscripcionFooter">
-                    <form action="#">
-                        <h2>Newsletter</h2>
-                        <p>Suscribete a nuestro boletin para saber de nuestras promociones antes que nadie</p>
-                        <input type="email" placeholder="Direccion de email...">
-                        <button class="btn btn-primary" type="submit">Suscribete</button>
-                    </form>
+                <!--Navbar footer-->
+                <div class="box">
+                    <div class="navbar-nav">
+                        <a class="nav-link" href="#">Inicio</a>
+                        <a class="nav-link" href="./pages/servicios.html">Servicios</a>
+                        <a class="nav-link" href="./pages/promociones.html">Promociones</a>
+                        <a class="nav-link" href="./pages/sobreNosotros.html">Sobre Nosotros</a>
+                        <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+                    </div>
+                </div>
+                <!--Datos de contacto footer-->
+                <div class="box">
+                    <h2>Datos de contacto</h2>
+                    <p>Telefono de contacto: 3330244397</p>
+                    <p>Direccion: Av. Chapalita 1321</p>
+                    <p>Col. Chapalita, 44510 Guadalajara, Jal.</p>
+                </div>
+                <!--Redes footer-->
+                <div class="box">
+                    <h2>Redes Sociales</h2>
+                    <div class="redesSociales">
+                        <a href="https://api.whatsapp.com/send?phone=5213330244397&text=Que%20tal%20buen%20dia%2C%20me%20interesaria%20poder%20agendar%20un%20servicio%20con%20usted"
+                            target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                        <a href="https://www.instagram.com/c.d.jesalia.espinoza/" target="_blank"><i
+                                class="fa-brands fa-instagram"></i></a>
+                        <a href="mailto:jesaliaespinoza04@gmail.com?Subject=Me%20interesa%20agendar%20una%20cita"><i
+                                class="fa-regular fa-envelope"></i></a>
+                        <a href="https://www.facebook.com/profile.php?id=100069819045703" target="_blank"><i
+                                class="fa-brands fa-facebook"></i></a>
+                    </div>
+                    <!--Subscripcion footer-->
+                    <div class="cajaSuscripcionFooter">
+                        <form action="#">
+                            <h2>Newsletter</h2>
+                            <p>Suscribete a nuestro boletin para saber de nuestras promociones antes que nadie</p>
+                            <input type="email" placeholder="Direccion de email...">
+                            <button class="btn btn-grad" type="submit">Suscribete</button>
+                        </form>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="grupoFooterBajo">
-            <p>&copy; 2023 <b> - C. D. Jesalia - </b>Todos los Derechos Reservados</p>
-        </div>
+            <div class="grupoFooterBajo">
+                <p>&copy; 2023 <b> - C. D. Jesalia - </b>Todos los Derechos Reservados</p>
+            </div>
+    </main>
     </footer>
     <!--JS Bootstrap-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"

@@ -12,6 +12,12 @@
             margin-bottom: 30px;
         }
     }
+
+    .navbar-expand-lg .navbar-collapse {
+        justify-content: flex-start;
+        font-size: 20px;
+    }
+
 }
 
 @media (min-width: 768px) {
@@ -20,11 +26,24 @@
             margin-bottom: 30px;
         }
     }
+
+    .navbar-nav {
+        align-items: center;
+    }
 }
 
-@media (min-width: 768px) and (max-width: 1023px) {
+@media (min-width: 768px) and (max-width: 1024px) {
+    .navbar-nav {
+        align-items: center;
+        font-size: 20px;
+    }
+
     .textoInformativoIndex {
         padding: 0px;
+    }
+
+    .parrafosIndex {
+        width: 50vh;
     }
 
     .promociones {
@@ -39,7 +58,7 @@
         padding: 0px;
 
         .textoInformativo {
-            width: auto;
+            width: 50vh;
             margin: 10px;
 
             p {
@@ -96,6 +115,16 @@
         display: none;
     }
 
+    .navbar-nav {
+        align-items: center;
+        font-size: 20px;
+    }
+
+    .imgPrincipalIndex {
+        margin: 0px;
+        height: auto;
+    }
+
     .tituloIndex {
         h1 {
             font-size: 30px;
@@ -104,6 +133,10 @@
         p {
             font-size: 15px;
         }
+    }
+
+    .parrafosIndex {
+        width: auto;
     }
 
     .textoInformativoIndex {
@@ -206,6 +239,11 @@
 
         padding: 0px;
         margin: 10px;
+    }
+
+    #servicio{
+        width: 95%;
+
     }
 
     .formRegister {

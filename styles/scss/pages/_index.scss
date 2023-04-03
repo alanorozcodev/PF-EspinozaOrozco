@@ -13,7 +13,7 @@
 }
 
 .textoInformativoIndex {
-    padding: 40px;
+    padding: 10px;
     @include flex-wrap-evenly;
     width: auto;
     align-items: center;
@@ -29,7 +29,8 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    width: 50vh;
+    width: 100vh;
+    font-size: 20px;
 }
 
 .parrafosIndexSuperior {
